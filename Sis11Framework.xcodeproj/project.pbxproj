@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		113F3F022C7FCB7F004F1B97 /* Sis11Framework.docc in Sources */ = {isa = PBXBuildFile; fileRef = 113F3F012C7FCB7F004F1B97 /* Sis11Framework.docc */; };
+		113F3F082C7FCB7F004F1B97 /* Sis11Framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 113F3EFD2C7FCB7F004F1B97 /* Sis11Framework.framework */; };
+		113F3F0D2C7FCB7F004F1B97 /* Sis11FrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F3F0C2C7FCB7F004F1B97 /* Sis11FrameworkTests.swift */; };
+		113F3F0E2C7FCB7F004F1B97 /* Sis11Framework.h in Headers */ = {isa = PBXBuildFile; fileRef = 113F3F002C7FCB7F004F1B97 /* Sis11Framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		113F3F4B2C7FCBAC004F1B97 /* RepoLifePolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F3F182C7FCBAC004F1B97 /* RepoLifePolicy.swift */; };
+		113F3F4C2C7FCBAC004F1B97 /* ContactData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F3F192C7FCBAC004F1B97 /* ContactData.swift */; };
+		113F3F4D2C7FCBAC004F1B97 /* RepoClaim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F3F1A2C7FCBAC004F1B97 /* RepoClaim.swift */; };
+		113F3F4E2C7FCBAC004F1B97 /* Portal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F3F1B2C7FCBAC004F1B97 /* Portal.swift */; };
+		113F3F4F2C7FCBAC004F1B97 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F3F1C2C7FCBAC004F1B97 /* Repository.swift */; };
+		113F3F502C7FCBAC004F1B97 /* DoCmd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F3F1D2C7FCBAC004F1B97 /* DoCmd.swift */; };
+		113F3F512C7FCBAC004F1B97 /* Sis11SDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F3F1E2C7FCBAC004F1B97 /* Sis11SDK.swift */; };
+		113F3F522C7FCBAC004F1B97 /* PortalProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F3F212C7FCBAC004F1B97 /* PortalProduct.swift */; };
+		113F3F532C7FCBAC004F1B97 /* PortalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F3F222C7FCBAC004F1B97 /* PortalData.swift */; };
+		113F3F542C7FCBAC004F1B97 /* SelfService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F3F232C7FCBAC004F1B97 /* SelfService.swift */; };
+		113F3F552C7FCBAC004F1B97 /* doCmd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F3F252C7FCBAC004F1B97 /* doCmd.swift */; };
+		113F3F562C7FCBAC004F1B97 /* RepoLifePolicyDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F3F272C7FCBAC004F1B97 /* RepoLifePolicyDTO.swift */; };
+		113F3F572C7FCBAC004F1B97 /* InsuredObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F3F282C7FCBAC004F1B97 /* InsuredObject.swift */; };
+		113F3F582C7FCBAC004F1B97 /* Premium.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F3F292C7FCBAC004F1B97 /* Premium.swift */; };
+		113F3F592C7FCBAC004F1B97 /* LifeCoverage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F3F2A2C7FCBAC004F1B97 /* LifeCoverage.swift */; };
+		113F3F5A2C7FCBAC004F1B97 /* QuotePortalProductResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F3F2B2C7FCBAC004F1B97 /* QuotePortalProductResponse.swift */; };
+		113F3F5B2C7FCBAC004F1B97 /* Insured.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F3F2C2C7FCBAC004F1B97 /* Insured.swift */; };
+		113F3F5C2C7FCBAC004F1B97 /* LifePolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F3F2D2C7FCBAC004F1B97 /* LifePolicy.swift */; };
+		113F3F5D2C7FCBAC004F1B97 /* PayPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F3F2E2C7FCBAC004F1B97 /* PayPlan.swift */; };
+		113F3F5E2C7FCBAC004F1B97 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F3F302C7FCBAC004F1B97 /* City.swift */; };
+		113F3F5F2C7FCBAC004F1B97 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F3F312C7FCBAC004F1B97 /* Currency.swift */; };
+		113F3F602C7FCBAC004F1B97 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F3F322C7FCBAC004F1B97 /* State.swift */; };
+		113F3F612C7FCBAC004F1B97 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F3F332C7FCBAC004F1B97 /* Country.swift */; };
+		113F3F622C7FCBAC004F1B97 /* Relationship.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F3F342C7FCBAC004F1B97 /* Relationship.swift */; };
+		113F3F632C7FCBAC004F1B97 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F3F362C7FCBAC004F1B97 /* APIError.swift */; };
+		113F3F642C7FCBAC004F1B97 /* AuthErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F3F372C7FCBAC004F1B97 /* AuthErrors.swift */; };
+		113F3F652C7FCBAC004F1B97 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F3F392C7FCBAC004F1B97 /* UserData.swift */; };
+		113F3F662C7FCBAC004F1B97 /* IssueType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F3F3B2C7FCBAC004F1B97 /* IssueType.swift */; };
+		113F3F672C7FCBAC004F1B97 /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F3F3C2C7FCBAC004F1B97 /* Priority.swift */; };
+		113F3F682C7FCBAC004F1B97 /* Issue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F3F3D2C7FCBAC004F1B97 /* Issue.swift */; };
+		113F3F692C7FCBAC004F1B97 /* IssueData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F3F3E2C7FCBAC004F1B97 /* IssueData.swift */; };
+		113F3F6A2C7FCBAC004F1B97 /* IssueRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F3F3F2C7FCBAC004F1B97 /* IssueRequest.swift */; };
+		113F3F6B2C7FCBAC004F1B97 /* IssueReason.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F3F402C7FCBAC004F1B97 /* IssueReason.swift */; };
+		113F3F6C2C7FCBAC004F1B97 /* IssueRepoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F3F412C7FCBAC004F1B97 /* IssueRepoResponse.swift */; };
+		113F3F6D2C7FCBAC004F1B97 /* ReturnedUserOutData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F3F432C7FCBAC004F1B97 /* ReturnedUserOutData.swift */; };
+		113F3F6E2C7FCBAC004F1B97 /* ReturnedUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F3F442C7FCBAC004F1B97 /* ReturnedUser.swift */; };
+		113F3F6F2C7FCBAC004F1B97 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F3F452C7FCBAC004F1B97 /* Credentials.swift */; };
+		113F3F702C7FCBAC004F1B97 /* RepoClaimDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F3F472C7FCBAC004F1B97 /* RepoClaimDTO.swift */; };
+		113F3F712C7FCBAC004F1B97 /* EventReason.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F3F482C7FCBAC004F1B97 /* EventReason.swift */; };
+		113F3F722C7FCBAC004F1B97 /* InsuredEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F3F492C7FCBAC004F1B97 /* InsuredEvent.swift */; };
+		113F3F732C7FCBAC004F1B97 /* Claim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F3F4A2C7FCBAC004F1B97 /* Claim.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		113F3F092C7FCB7F004F1B97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 113F3EF42C7FCB7F004F1B97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 113F3EFC2C7FCB7F004F1B97;
+			remoteInfo = Sis11Framework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		113F3EFD2C7FCB7F004F1B97 /* Sis11Framework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Sis11Framework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		113F3F002C7FCB7F004F1B97 /* Sis11Framework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sis11Framework.h; sourceTree = "<group>"; };
+		113F3F012C7FCB7F004F1B97 /* Sis11Framework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Sis11Framework.docc; sourceTree = "<group>"; };
+		113F3F072C7FCB7F004F1B97 /* Sis11FrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sis11FrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		113F3F0C2C7FCB7F004F1B97 /* Sis11FrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sis11FrameworkTests.swift; sourceTree = "<group>"; };
+		113F3F182C7FCBAC004F1B97 /* RepoLifePolicy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepoLifePolicy.swift; sourceTree = "<group>"; };
+		113F3F192C7FCBAC004F1B97 /* ContactData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactData.swift; sourceTree = "<group>"; };
+		113F3F1A2C7FCBAC004F1B97 /* RepoClaim.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepoClaim.swift; sourceTree = "<group>"; };
+		113F3F1B2C7FCBAC004F1B97 /* Portal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Portal.swift; sourceTree = "<group>"; };
+		113F3F1C2C7FCBAC004F1B97 /* Repository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		113F3F1D2C7FCBAC004F1B97 /* DoCmd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoCmd.swift; sourceTree = "<group>"; };
+		113F3F1E2C7FCBAC004F1B97 /* Sis11SDK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sis11SDK.swift; sourceTree = "<group>"; };
+		113F3F212C7FCBAC004F1B97 /* PortalProduct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortalProduct.swift; sourceTree = "<group>"; };
+		113F3F222C7FCBAC004F1B97 /* PortalData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortalData.swift; sourceTree = "<group>"; };
+		113F3F232C7FCBAC004F1B97 /* SelfService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelfService.swift; sourceTree = "<group>"; };
+		113F3F252C7FCBAC004F1B97 /* doCmd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = doCmd.swift; sourceTree = "<group>"; };
+		113F3F272C7FCBAC004F1B97 /* RepoLifePolicyDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepoLifePolicyDTO.swift; sourceTree = "<group>"; };
+		113F3F282C7FCBAC004F1B97 /* InsuredObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsuredObject.swift; sourceTree = "<group>"; };
+		113F3F292C7FCBAC004F1B97 /* Premium.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Premium.swift; sourceTree = "<group>"; };
+		113F3F2A2C7FCBAC004F1B97 /* LifeCoverage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LifeCoverage.swift; sourceTree = "<group>"; };
+		113F3F2B2C7FCBAC004F1B97 /* QuotePortalProductResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuotePortalProductResponse.swift; sourceTree = "<group>"; };
+		113F3F2C2C7FCBAC004F1B97 /* Insured.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Insured.swift; sourceTree = "<group>"; };
+		113F3F2D2C7FCBAC004F1B97 /* LifePolicy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LifePolicy.swift; sourceTree = "<group>"; };
+		113F3F2E2C7FCBAC004F1B97 /* PayPlan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayPlan.swift; sourceTree = "<group>"; };
+		113F3F302C7FCBAC004F1B97 /* City.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		113F3F312C7FCBAC004F1B97 /* Currency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		113F3F322C7FCBAC004F1B97 /* State.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		113F3F332C7FCBAC004F1B97 /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		113F3F342C7FCBAC004F1B97 /* Relationship.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Relationship.swift; sourceTree = "<group>"; };
+		113F3F362C7FCBAC004F1B97 /* APIError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		113F3F372C7FCBAC004F1B97 /* AuthErrors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthErrors.swift; sourceTree = "<group>"; };
+		113F3F392C7FCBAC004F1B97 /* UserData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		113F3F3B2C7FCBAC004F1B97 /* IssueType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IssueType.swift; sourceTree = "<group>"; };
+		113F3F3C2C7FCBAC004F1B97 /* Priority.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Priority.swift; sourceTree = "<group>"; };
+		113F3F3D2C7FCBAC004F1B97 /* Issue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Issue.swift; sourceTree = "<group>"; };
+		113F3F3E2C7FCBAC004F1B97 /* IssueData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IssueData.swift; sourceTree = "<group>"; };
+		113F3F3F2C7FCBAC004F1B97 /* IssueRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IssueRequest.swift; sourceTree = "<group>"; };
+		113F3F402C7FCBAC004F1B97 /* IssueReason.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IssueReason.swift; sourceTree = "<group>"; };
+		113F3F412C7FCBAC004F1B97 /* IssueRepoResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IssueRepoResponse.swift; sourceTree = "<group>"; };
+		113F3F432C7FCBAC004F1B97 /* ReturnedUserOutData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReturnedUserOutData.swift; sourceTree = "<group>"; };
+		113F3F442C7FCBAC004F1B97 /* ReturnedUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReturnedUser.swift; sourceTree = "<group>"; };
+		113F3F452C7FCBAC004F1B97 /* Credentials.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
+		113F3F472C7FCBAC004F1B97 /* RepoClaimDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepoClaimDTO.swift; sourceTree = "<group>"; };
+		113F3F482C7FCBAC004F1B97 /* EventReason.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventReason.swift; sourceTree = "<group>"; };
+		113F3F492C7FCBAC004F1B97 /* InsuredEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsuredEvent.swift; sourceTree = "<group>"; };
+		113F3F4A2C7FCBAC004F1B97 /* Claim.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Claim.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		113F3EFA2C7FCB7F004F1B97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		113F3F042C7FCB7F004F1B97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				113F3F082C7FCB7F004F1B97 /* Sis11Framework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		113F3EF32C7FCB7F004F1B97 = {
+			isa = PBXGroup;
+			children = (
+				113F3EFF2C7FCB7F004F1B97 /* Sis11Framework */,
+				113F3F0B2C7FCB7F004F1B97 /* Sis11FrameworkTests */,
+				113F3EFE2C7FCB7F004F1B97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		113F3EFE2C7FCB7F004F1B97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				113F3EFD2C7FCB7F004F1B97 /* Sis11Framework.framework */,
+				113F3F072C7FCB7F004F1B97 /* Sis11FrameworkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		113F3EFF2C7FCB7F004F1B97 /* Sis11Framework */ = {
+			isa = PBXGroup;
+			children = (
+				113F3F1F2C7FCBAC004F1B97 /* DTO */,
+				113F3F172C7FCBAC004F1B97 /* Lib */,
+				113F3F1E2C7FCBAC004F1B97 /* Sis11SDK.swift */,
+				113F3F002C7FCB7F004F1B97 /* Sis11Framework.h */,
+				113F3F012C7FCB7F004F1B97 /* Sis11Framework.docc */,
+			);
+			path = Sis11Framework;
+			sourceTree = "<group>";
+		};
+		113F3F0B2C7FCB7F004F1B97 /* Sis11FrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				113F3F0C2C7FCB7F004F1B97 /* Sis11FrameworkTests.swift */,
+			);
+			path = Sis11FrameworkTests;
+			sourceTree = "<group>";
+		};
+		113F3F172C7FCBAC004F1B97 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				113F3F182C7FCBAC004F1B97 /* RepoLifePolicy.swift */,
+				113F3F192C7FCBAC004F1B97 /* ContactData.swift */,
+				113F3F1A2C7FCBAC004F1B97 /* RepoClaim.swift */,
+				113F3F1B2C7FCBAC004F1B97 /* Portal.swift */,
+				113F3F1C2C7FCBAC004F1B97 /* Repository.swift */,
+				113F3F1D2C7FCBAC004F1B97 /* DoCmd.swift */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		113F3F1F2C7FCBAC004F1B97 /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				113F3F202C7FCBAC004F1B97 /* Portal */,
+				113F3F242C7FCBAC004F1B97 /* Util */,
+				113F3F262C7FCBAC004F1B97 /* LifePolicy */,
+				113F3F2F2C7FCBAC004F1B97 /* Catalog */,
+				113F3F352C7FCBAC004F1B97 /* ApiErrors */,
+				113F3F382C7FCBAC004F1B97 /* UserData */,
+				113F3F3A2C7FCBAC004F1B97 /* Issues */,
+				113F3F422C7FCBAC004F1B97 /* Login */,
+				113F3F462C7FCBAC004F1B97 /* Claim */,
+			);
+			path = DTO;
+			sourceTree = "<group>";
+		};
+		113F3F202C7FCBAC004F1B97 /* Portal */ = {
+			isa = PBXGroup;
+			children = (
+				113F3F212C7FCBAC004F1B97 /* PortalProduct.swift */,
+				113F3F222C7FCBAC004F1B97 /* PortalData.swift */,
+				113F3F232C7FCBAC004F1B97 /* SelfService.swift */,
+			);
+			path = Portal;
+			sourceTree = "<group>";
+		};
+		113F3F242C7FCBAC004F1B97 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				113F3F252C7FCBAC004F1B97 /* doCmd.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		113F3F262C7FCBAC004F1B97 /* LifePolicy */ = {
+			isa = PBXGroup;
+			children = (
+				113F3F272C7FCBAC004F1B97 /* RepoLifePolicyDTO.swift */,
+				113F3F282C7FCBAC004F1B97 /* InsuredObject.swift */,
+				113F3F292C7FCBAC004F1B97 /* Premium.swift */,
+				113F3F2A2C7FCBAC004F1B97 /* LifeCoverage.swift */,
+				113F3F2B2C7FCBAC004F1B97 /* QuotePortalProductResponse.swift */,
+				113F3F2C2C7FCBAC004F1B97 /* Insured.swift */,
+				113F3F2D2C7FCBAC004F1B97 /* LifePolicy.swift */,
+				113F3F2E2C7FCBAC004F1B97 /* PayPlan.swift */,
+			);
+			path = LifePolicy;
+			sourceTree = "<group>";
+		};
+		113F3F2F2C7FCBAC004F1B97 /* Catalog */ = {
+			isa = PBXGroup;
+			children = (
+				113F3F302C7FCBAC004F1B97 /* City.swift */,
+				113F3F312C7FCBAC004F1B97 /* Currency.swift */,
+				113F3F322C7FCBAC004F1B97 /* State.swift */,
+				113F3F332C7FCBAC004F1B97 /* Country.swift */,
+				113F3F342C7FCBAC004F1B97 /* Relationship.swift */,
+			);
+			path = Catalog;
+			sourceTree = "<group>";
+		};
+		113F3F352C7FCBAC004F1B97 /* ApiErrors */ = {
+			isa = PBXGroup;
+			children = (
+				113F3F362C7FCBAC004F1B97 /* APIError.swift */,
+				113F3F372C7FCBAC004F1B97 /* AuthErrors.swift */,
+			);
+			path = ApiErrors;
+			sourceTree = "<group>";
+		};
+		113F3F382C7FCBAC004F1B97 /* UserData */ = {
+			isa = PBXGroup;
+			children = (
+				113F3F392C7FCBAC004F1B97 /* UserData.swift */,
+			);
+			path = UserData;
+			sourceTree = "<group>";
+		};
+		113F3F3A2C7FCBAC004F1B97 /* Issues */ = {
+			isa = PBXGroup;
+			children = (
+				113F3F3B2C7FCBAC004F1B97 /* IssueType.swift */,
+				113F3F3C2C7FCBAC004F1B97 /* Priority.swift */,
+				113F3F3D2C7FCBAC004F1B97 /* Issue.swift */,
+				113F3F3E2C7FCBAC004F1B97 /* IssueData.swift */,
+				113F3F3F2C7FCBAC004F1B97 /* IssueRequest.swift */,
+				113F3F402C7FCBAC004F1B97 /* IssueReason.swift */,
+				113F3F412C7FCBAC004F1B97 /* IssueRepoResponse.swift */,
+			);
+			path = Issues;
+			sourceTree = "<group>";
+		};
+		113F3F422C7FCBAC004F1B97 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				113F3F432C7FCBAC004F1B97 /* ReturnedUserOutData.swift */,
+				113F3F442C7FCBAC004F1B97 /* ReturnedUser.swift */,
+				113F3F452C7FCBAC004F1B97 /* Credentials.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		113F3F462C7FCBAC004F1B97 /* Claim */ = {
+			isa = PBXGroup;
+			children = (
+				113F3F472C7FCBAC004F1B97 /* RepoClaimDTO.swift */,
+				113F3F482C7FCBAC004F1B97 /* EventReason.swift */,
+				113F3F492C7FCBAC004F1B97 /* InsuredEvent.swift */,
+				113F3F4A2C7FCBAC004F1B97 /* Claim.swift */,
+			);
+			path = Claim;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		113F3EF82C7FCB7F004F1B97 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				113F3F0E2C7FCB7F004F1B97 /* Sis11Framework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		113F3EFC2C7FCB7F004F1B97 /* Sis11Framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 113F3F112C7FCB7F004F1B97 /* Build configuration list for PBXNativeTarget "Sis11Framework" */;
+			buildPhases = (
+				113F3EF82C7FCB7F004F1B97 /* Headers */,
+				113F3EF92C7FCB7F004F1B97 /* Sources */,
+				113F3EFA2C7FCB7F004F1B97 /* Frameworks */,
+				113F3EFB2C7FCB7F004F1B97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sis11Framework;
+			productName = Sis11Framework;
+			productReference = 113F3EFD2C7FCB7F004F1B97 /* Sis11Framework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		113F3F062C7FCB7F004F1B97 /* Sis11FrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 113F3F142C7FCB7F004F1B97 /* Build configuration list for PBXNativeTarget "Sis11FrameworkTests" */;
+			buildPhases = (
+				113F3F032C7FCB7F004F1B97 /* Sources */,
+				113F3F042C7FCB7F004F1B97 /* Frameworks */,
+				113F3F052C7FCB7F004F1B97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				113F3F0A2C7FCB7F004F1B97 /* PBXTargetDependency */,
+			);
+			name = Sis11FrameworkTests;
+			productName = Sis11FrameworkTests;
+			productReference = 113F3F072C7FCB7F004F1B97 /* Sis11FrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		113F3EF42C7FCB7F004F1B97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					113F3EFC2C7FCB7F004F1B97 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					113F3F062C7FCB7F004F1B97 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 113F3EF72C7FCB7F004F1B97 /* Build configuration list for PBXProject "Sis11Framework" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 113F3EF32C7FCB7F004F1B97;
+			productRefGroup = 113F3EFE2C7FCB7F004F1B97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				113F3EFC2C7FCB7F004F1B97 /* Sis11Framework */,
+				113F3F062C7FCB7F004F1B97 /* Sis11FrameworkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		113F3EFB2C7FCB7F004F1B97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		113F3F052C7FCB7F004F1B97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		113F3EF92C7FCB7F004F1B97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				113F3F582C7FCBAC004F1B97 /* Premium.swift in Sources */,
+				113F3F682C7FCBAC004F1B97 /* Issue.swift in Sources */,
+				113F3F5C2C7FCBAC004F1B97 /* LifePolicy.swift in Sources */,
+				113F3F6C2C7FCBAC004F1B97 /* IssueRepoResponse.swift in Sources */,
+				113F3F652C7FCBAC004F1B97 /* UserData.swift in Sources */,
+				113F3F022C7FCB7F004F1B97 /* Sis11Framework.docc in Sources */,
+				113F3F712C7FCBAC004F1B97 /* EventReason.swift in Sources */,
+				113F3F6D2C7FCBAC004F1B97 /* ReturnedUserOutData.swift in Sources */,
+				113F3F552C7FCBAC004F1B97 /* doCmd.swift in Sources */,
+				113F3F612C7FCBAC004F1B97 /* Country.swift in Sources */,
+				113F3F6B2C7FCBAC004F1B97 /* IssueReason.swift in Sources */,
+				113F3F4E2C7FCBAC004F1B97 /* Portal.swift in Sources */,
+				113F3F572C7FCBAC004F1B97 /* InsuredObject.swift in Sources */,
+				113F3F5F2C7FCBAC004F1B97 /* Currency.swift in Sources */,
+				113F3F4B2C7FCBAC004F1B97 /* RepoLifePolicy.swift in Sources */,
+				113F3F532C7FCBAC004F1B97 /* PortalData.swift in Sources */,
+				113F3F602C7FCBAC004F1B97 /* State.swift in Sources */,
+				113F3F692C7FCBAC004F1B97 /* IssueData.swift in Sources */,
+				113F3F4D2C7FCBAC004F1B97 /* RepoClaim.swift in Sources */,
+				113F3F512C7FCBAC004F1B97 /* Sis11SDK.swift in Sources */,
+				113F3F592C7FCBAC004F1B97 /* LifeCoverage.swift in Sources */,
+				113F3F5A2C7FCBAC004F1B97 /* QuotePortalProductResponse.swift in Sources */,
+				113F3F562C7FCBAC004F1B97 /* RepoLifePolicyDTO.swift in Sources */,
+				113F3F5D2C7FCBAC004F1B97 /* PayPlan.swift in Sources */,
+				113F3F662C7FCBAC004F1B97 /* IssueType.swift in Sources */,
+				113F3F542C7FCBAC004F1B97 /* SelfService.swift in Sources */,
+				113F3F502C7FCBAC004F1B97 /* DoCmd.swift in Sources */,
+				113F3F702C7FCBAC004F1B97 /* RepoClaimDTO.swift in Sources */,
+				113F3F732C7FCBAC004F1B97 /* Claim.swift in Sources */,
+				113F3F522C7FCBAC004F1B97 /* PortalProduct.swift in Sources */,
+				113F3F6E2C7FCBAC004F1B97 /* ReturnedUser.swift in Sources */,
+				113F3F622C7FCBAC004F1B97 /* Relationship.swift in Sources */,
+				113F3F672C7FCBAC004F1B97 /* Priority.swift in Sources */,
+				113F3F4C2C7FCBAC004F1B97 /* ContactData.swift in Sources */,
+				113F3F6A2C7FCBAC004F1B97 /* IssueRequest.swift in Sources */,
+				113F3F722C7FCBAC004F1B97 /* InsuredEvent.swift in Sources */,
+				113F3F6F2C7FCBAC004F1B97 /* Credentials.swift in Sources */,
+				113F3F5B2C7FCBAC004F1B97 /* Insured.swift in Sources */,
+				113F3F4F2C7FCBAC004F1B97 /* Repository.swift in Sources */,
+				113F3F5E2C7FCBAC004F1B97 /* City.swift in Sources */,
+				113F3F642C7FCBAC004F1B97 /* AuthErrors.swift in Sources */,
+				113F3F632C7FCBAC004F1B97 /* APIError.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		113F3F032C7FCB7F004F1B97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				113F3F0D2C7FCB7F004F1B97 /* Sis11FrameworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		113F3F0A2C7FCB7F004F1B97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 113F3EFC2C7FCB7F004F1B97 /* Sis11Framework */;
+			targetProxy = 113F3F092C7FCB7F004F1B97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		113F3F0F2C7FCB7F004F1B97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		113F3F102C7FCB7F004F1B97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		113F3F122C7FCB7F004F1B97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6MKZFS2K8S;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.axxis-systems.Sis11Framework";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = auto;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		113F3F132C7FCB7F004F1B97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6MKZFS2K8S;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.axxis-systems.Sis11Framework";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = auto;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		113F3F152C7FCB7F004F1B97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6MKZFS2K8S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.axxis-systems.Sis11FrameworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		113F3F162C7FCB7F004F1B97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6MKZFS2K8S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.axxis-systems.Sis11FrameworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		113F3EF72C7FCB7F004F1B97 /* Build configuration list for PBXProject "Sis11Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				113F3F0F2C7FCB7F004F1B97 /* Debug */,
+				113F3F102C7FCB7F004F1B97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		113F3F112C7FCB7F004F1B97 /* Build configuration list for PBXNativeTarget "Sis11Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				113F3F122C7FCB7F004F1B97 /* Debug */,
+				113F3F132C7FCB7F004F1B97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		113F3F142C7FCB7F004F1B97 /* Build configuration list for PBXNativeTarget "Sis11FrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				113F3F152C7FCB7F004F1B97 /* Debug */,
+				113F3F162C7FCB7F004F1B97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 113F3EF42C7FCB7F004F1B97 /* Project object */;
+}

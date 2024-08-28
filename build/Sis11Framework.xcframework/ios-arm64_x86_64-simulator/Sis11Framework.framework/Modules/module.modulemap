@@ -1,0 +1,11 @@
+framework module Sis11Framework {
+  umbrella header "Sis11Framework.h"
+  export *
+
+  module * { export * }
+}
+
+module Sis11Framework.Swift {
+  header "Sis11Framework-Swift.h"
+  requires objc
+}

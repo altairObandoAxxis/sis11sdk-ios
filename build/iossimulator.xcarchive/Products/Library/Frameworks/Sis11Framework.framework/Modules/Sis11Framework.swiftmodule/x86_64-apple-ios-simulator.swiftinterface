@@ -1,0 +1,549 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target x86_64-apple-ios17.2-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Sis11Framework
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+@_exported import Sis11Framework
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct Premium : Swift.Codable, Swift.Identifiable {
+  public var id: Swift.Int
+  public var policyCode: Swift.String?
+  public var currency: Swift.String?
+  public var amount: Foundation.Decimal
+  public var amountPaid: Foundation.Decimal
+  public var concept: Swift.String?
+  public var contractYear: Swift.Int
+  public var numberInYear: Swift.Int
+  public var dueDate: Swift.String?
+  public var lifePolicyId: Swift.Int
+  public var payDate: Swift.String?
+  public typealias ID = Swift.Int
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Issue : Swift.Codable {
+  public var id: Swift.Int
+  public var contactId: Swift.Int
+  public var title: Swift.String?
+  public var description: Swift.String?
+  public var issueType: Swift.String?
+  public var issueReason: Swift.String?
+  public var priorityCode: Swift.String?
+  public var policyId: Swift.Int?
+  public var externalId: Swift.String?
+  public var lifeCoverageId: Swift.Int?
+  public init(id: Swift.Int, contactId: Swift.Int, title: Swift.String? = nil, description: Swift.String? = nil, issueType: Swift.String? = nil, issueReason: Swift.String? = nil, priorityCode: Swift.String? = nil, policyId: Swift.Int? = nil, externalId: Swift.String? = nil, lifeCoverageId: Swift.Int? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public class LifePolicy : Swift.Codable, Swift.Identifiable {
+  public var quoteId: Foundation.UUID?
+  final public let id: Swift.Int
+  final public let code: Swift.String?
+  final public let lob: Swift.String
+  final public let active: Swift.Bool
+  final public let productCode: Swift.String?
+  final public let insuredSum: Foundation.Decimal
+  final public let currency: Swift.String?
+  final public let start: Swift.String?
+  public var end: Swift.String?
+  public var annualTotal: Foundation.Decimal
+  final public let Coverages: [Sis11Framework.Coverage]?
+  final public let Insureds: [Sis11Framework.Insured]?
+  final public let sellerId: Swift.Int?
+  final public let holderId: Swift.Int
+  final public let payerId: Swift.Int
+  final public let segment: Swift.String?
+  final public let channel: Swift.String?
+  final public let InsuredObjects: [Sis11Framework.InsuredObject]?
+  final public let plan: Swift.String?
+  final public let periodicity: Swift.String?
+  final public let policyType: Swift.String?
+  public typealias ID = Swift.Int
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+public struct IssueResponse : Swift.Codable {
+  public var cmd: Swift.String
+  public var data: Sis11Framework.IssueData
+  public var msg: Swift.String
+  public var ok: Swift.Bool
+  public var outData: [Sis11Framework.Issue]
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct ContactData : Swift.Codable {
+  public let ok: Swift.Bool
+  public let msg: Swift.String
+  public let outData: Sis11Framework.ContactDataOutData?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct ContactDataOutData : Swift.Codable {
+  public var PoliciesAsHolder: [Sis11Framework.LifePolicy]
+  public var Claims: [Sis11Framework.Claim]
+  public var Premiums: [Sis11Framework.Premium]
+  public var Contact: Sis11Framework.Contact
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Contact : Swift.Codable, Swift.Identifiable {
+  public let id: Swift.Int
+  public var name: Swift.String?
+  public var surname1: Swift.String?
+  public var surname2: Swift.String?
+  public var FullName: Swift.String?
+  public var email: Swift.String?
+  public var birth: Swift.String?
+  public typealias ID = Swift.Int
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct EventReason : Swift.Codable {
+  public var code: Swift.String
+  public var name: Swift.String
+  public var disabled: Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct ReturnedUserOutData : Swift.Codable {
+  public let token: Swift.String
+  public let nombre: Swift.String
+  public let email: Swift.String
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct doCmd : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct doCmdData : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct GetPingDTO : Swift.Codable {
+  public let user: Swift.String
+  public let environment: Swift.String
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public class DoCmdDto<T> : Swift.Codable where T : Swift.Decodable, T : Swift.Encodable {
+  final public let cmd: Swift.String
+  final public let ok: Swift.Bool
+  final public let msg: Swift.String
+  final public let outData: T
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+public class Country : Swift.Codable {
+  public var code: Swift.String
+  public var name: Swift.String
+  public var fatca: Swift.Bool
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+public struct IssueReason : Swift.Codable {
+  public var code: Swift.String
+  public var name: Swift.String
+  public var issueType: Swift.String
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public class Portal {
+  public init()
+  #if compiler(>=5.3) && $AsyncAwait
+  public func GetPortalProducts() async throws -> [Sis11Framework.Product]
+  #endif
+  public func ParseProductConfig(product: Sis11Framework.Product) throws -> Sis11Framework.SelfServiceConfiguration
+  @objc deinit
+}
+public struct InsuredObject : Swift.Codable {
+  public let objectDefinitionId: Swift.Int?
+  public let jValues: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Currency : Swift.Codable {
+  public var code: Swift.String
+  public var enabled: Swift.Bool
+  public var name: Swift.String?
+  public var symbol: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class RepoLifePolicy {
+  #if compiler(>=5.3) && $AsyncAwait
+  public func GetPolicyById(id: Swift.Int) async throws -> [Sis11Framework.LifePolicy]
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func GetPoliciesByHolderId(holderId: Swift.Int) async throws -> [Sis11Framework.LifePolicy]
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func GetPoliciesByFilter(filter: Swift.String) async throws -> [Sis11Framework.LifePolicy]
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func QuotePortalProduct(jFormValues: [Swift.String : Any], productCode: Swift.String) async throws -> Sis11Framework.QuotePortalProductResponse
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func GetPayPlan(lifePolicyId: Swift.Int) async throws -> [Sis11Framework.PayPlan]
+  #endif
+  @objc deinit
+}
+public struct PortalData : Swift.Codable {
+  public let ok: Swift.Bool
+  public let msg: Swift.String
+  public let outData: [Sis11Framework.Product]
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct StateCatalog : Swift.Codable {
+  public var id: Swift.Int
+  public var code: Swift.String
+  public var countryCode: Swift.String?
+  public var name: Swift.String?
+  public var riskZone: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct IssueData : Swift.Codable {
+  public var operation: Swift.String
+  public var entity: Sis11Framework.Issue
+  public var filter: Swift.String?
+  public init(entity: Sis11Framework.Issue, filter: Swift.String? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class RepoClaim {
+  #if compiler(>=5.3) && $AsyncAwait
+  public func GetClaimsByFilter(filter: Swift.String) async throws -> [Sis11Framework.Claim]
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func GetClaimById(id: Swift.Int) async throws -> Sis11Framework.Claim?
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func GetClaimsByPolicyId(lifePolicyId: Swift.Int) async throws -> [Sis11Framework.Claim]
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func GetClaimsByAffectedId(lifePolicyId: Swift.Int, contactId: Swift.Int) async throws -> [Sis11Framework.Claim]
+  #endif
+  @objc deinit
+}
+public let SDK: Sis11Framework.Sis11SDK
+@_hasMissingDesignatedInitializers public class Sis11SDK {
+  public static let shared: Sis11Framework.Sis11SDK
+  final public let contact: Sis11Framework.ContactActions
+  final public let policy: Sis11Framework.RepoLifePolicy
+  final public let claim: Sis11Framework.RepoClaim
+  final public let portal: Sis11Framework.Portal
+  final public let repo: Sis11Framework.Repository
+  public var token: Swift.String
+  public var user: Sis11Framework.ReturnedUserOutData?
+  public func changeToBackUp(newValue: Swift.Bool)
+  public func changeApiUrl(newApiUrl: Swift.String)
+  public func getApiUrl() -> Swift.String
+  #if compiler(>=5.3) && $AsyncAwait
+  public func doRequest(jsonContent: Foundation.Data) async throws -> Foundation.Data
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func doAuth(credentials: Sis11Framework.Credentials) async throws -> Sis11Framework.ReturnedUserOutData
+  #endif
+  @objc deinit
+}
+public struct Coverage : Swift.Codable, Swift.Identifiable {
+  public let id: Swift.Int
+  public let code: Swift.String
+  public let name: Swift.String
+  public let limit: Foundation.Decimal
+  public let premium: Foundation.Decimal?
+  public let extraPremium: Foundation.Decimal?
+  public let start: Swift.String?
+  public let end: Swift.String?
+  public let description: Swift.String?
+  public typealias ID = Swift.Int
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct QuotePortalProductResponse : Swift.Codable {
+  public var ok: Swift.Bool
+  public var msg: Swift.String
+  public var outData: [Sis11Framework.LifePolicy]
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct RepoLifePolicyDTO : Swift.Codable {
+  public let ok: Swift.Bool
+  public let msg: Swift.String
+  public let outData: [Sis11Framework.LifePolicy]
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct PayPlan : Swift.Codable, Swift.Identifiable {
+  public var id: Swift.Int
+  public var lifePolicyId: Swift.Int
+  public var transferId: Swift.Int?
+  public var numberInYear: Swift.Int
+  public var contractYear: Swift.Int
+  public var concept: Swift.String?
+  public var expected: Swift.Double?
+  public var minimum: Swift.Double?
+  public var currency: Swift.String
+  public var payed: Swift.Double?
+  public var allocationDate: Swift.String?, payedDate: Swift.String?
+  public var dueDate: Swift.String?, coveredUntil: Swift.String?
+  public var changeId: Swift.Int?
+  public var created: Swift.String?
+  public var allocationId: Swift.Int?
+  public var cancellationDate: Swift.String?, compensationDate: Swift.String?
+  public var dueAmount: Swift.Double?, pendingAmount: Swift.Double?
+  public var dueDays: Swift.Int?
+  public var pending: Swift.Bool?, custom: Swift.Bool?
+  public typealias ID = Swift.Int
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct IssueType : Swift.Codable {
+  public var code: Swift.String
+  public var name: Swift.String
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct SelfServiceConfiguration : Swift.Codable {
+  public let SelfService: Sis11Framework.SelfService
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct SelfService : Swift.Codable {
+  public let Quote: Sis11Framework.QuoteConfig
+  public let MobilePayment: Sis11Framework.MobilePayment?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct QuoteConfig : Swift.Codable {
+  public let Steps: [Sis11Framework.StepConfig]
+  public let mobileForm: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct StepConfig : Swift.Codable, Swift.Identifiable {
+  public var id: Swift.String {
+    get
+  }
+  public let title: Swift.String
+  public let text: Swift.String
+  public let control: Swift.String
+  public let name: Swift.String
+  public typealias ID = Swift.String
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct MobilePayment : Swift.Codable {
+  public let Options: [Sis11Framework.Options]?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public class Options : Swift.Codable, Swift.Identifiable {
+  public var id: Foundation.UUID?
+  public var title: Swift.String
+  public var control: Swift.String
+  public var chain: Swift.String?
+  public var formId: Swift.Int?
+  public var htmlForm: Swift.String?
+  public typealias ID = Foundation.UUID?
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+public class DoCmd<T> where T : Swift.Decodable, T : Swift.Encodable {
+  public init()
+  #if compiler(>=5.3) && $AsyncAwait
+  public func ExeChain(chain: Swift.String, context: Swift.String) async throws -> Sis11Framework.DoCmdDto<T>
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func DoCmd(cmd: Swift.String, data: [Swift.String : Swift.String]) async throws -> Sis11Framework.DoCmdDto<T>
+  #endif
+  @objc deinit
+}
+public struct RepoClaimDTO : Swift.Codable {
+  public let ok: Swift.Bool
+  public let msg: Swift.String
+  public let outData: [Sis11Framework.Claim]
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Claim : Swift.Codable, Swift.Identifiable {
+  public var id: Swift.Int
+  public var code: Swift.String?
+  public var notification: Swift.String?
+  public var claimType: Swift.String?
+  public var status: Swift.String?
+  public var created: Swift.String?
+  public var eventReason: Swift.String?
+  public var insuredEvent: Swift.String?
+  public var elegibleCoverages: Swift.String?
+  public var contactId: Swift.Int
+  public var claimerId: Swift.Int
+  public var lifePolicyId: Swift.Int
+  public var jCustomForms: Swift.String?
+  public var EventReason: Sis11Framework.EventReason?
+  public var InsuredEvent: Sis11Framework.InsuredEvent?
+  public typealias ID = Swift.Int
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Product : Swift.Codable, Swift.Identifiable {
+  public var id: Swift.String {
+    get
+  }
+  public let code: Swift.String
+  public let configJson: Swift.String
+  public let lobCode: Swift.String?
+  public let name: Swift.String?
+  public typealias ID = Swift.String
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct ReturnedUser : Swift.Codable {
+  public let ok: Swift.Bool
+  public let msg: Swift.String
+  public let outData: Sis11Framework.ReturnedUserOutData?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Relationship : Swift.Codable {
+  public var id: Swift.Int
+  public var name: Swift.String?
+  public var nameInverse: Swift.String?
+  public var principalType: Swift.String?
+  public var rule: Swift.String?
+  public var expires: Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Priority : Swift.Codable {
+  public var code: Swift.String
+  public var name: Swift.String
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class ContactActions {
+  #if compiler(>=5.3) && $AsyncAwait
+  public func GetContactData() async throws -> Sis11Framework.ContactDataOutData?
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func GetContactDataByContactId(contactId: Swift.Int) async throws -> Sis11Framework.ContactDataOutData
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func GetPoliciesByContactId(contactId: Swift.Int) async throws -> [Sis11Framework.LifePolicy]
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func GetIssuesByContactId(contactId: Swift.Int) async throws -> [Sis11Framework.Issue]
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func CreateNewIssue(newIssue: Sis11Framework.Issue) async throws -> [Sis11Framework.Issue]
+  #endif
+  @objc deinit
+}
+public struct IssueRequest : Swift.Codable {
+  public var cmd: Swift.String
+  public var data: Sis11Framework.IssueData
+  public init(data: Sis11Framework.IssueData)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct InsuredEvent : Swift.Codable {
+  public var code: Swift.String
+  public var name: Swift.String
+  public var mode: Swift.String
+  public var disabled: Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Credentials : Swift.Codable {
+  public let email: Swift.String
+  public let clave: Swift.String
+  public init(email: Swift.String, clave: Swift.String)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Insured : Swift.Codable, Swift.Identifiable {
+  public let id: Swift.Int
+  public let lifePolicyId: Swift.Int
+  public let contactId: Swift.Int
+  public let relationship: Swift.Int
+  public let role: Swift.Int
+  public typealias ID = Swift.Int
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public class Repository {
+  public init()
+  #if compiler(>=5.3) && $AsyncAwait
+  public func GetCountries(page: Swift.Int, size: Swift.Int, filter: Swift.String) async throws -> [Sis11Framework.Country]
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func GetStates(page: Swift.Int, size: Swift.Int, filter: Swift.String) async throws -> [Sis11Framework.StateCatalog]
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func GetCities(page: Swift.Int, size: Swift.Int, filter: Swift.String) async throws -> [Sis11Framework.City]
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func GetCurrencies(page: Swift.Int, size: Swift.Int, filter: Swift.String) async throws -> [Sis11Framework.Currency]
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func GetInsuredEvents(page: Swift.Int, size: Swift.Int, filter: Swift.String) async throws -> [Sis11Framework.InsuredEvent]
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func GetEventReasons(page: Swift.Int, size: Swift.Int, filter: Swift.String) async throws -> [Sis11Framework.EventReason]
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func GetEventReasons(page: Swift.Int, size: Swift.Int, filter: Swift.String) async throws -> [Sis11Framework.Relationship]
+  #endif
+  @objc deinit
+}
+public enum Catalog : Swift.String {
+  case Country
+  case State
+  case City
+  case Currency
+  case InsuredEvent
+  case EventReason
+  case RelationShip
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct City : Swift.Codable {
+  public var id: Swift.Int
+  public var code: Swift.String?
+  public var name: Swift.String?
+  public var stateCode: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum AuthErrors : Swift.Error {
+  case loginError
+  case invalidUrl
+  case invalidData
+  case invalidHTTPResponse
+  case requestFailed(Swift.String)
+  case decodingError(any Swift.Error)
+}
+public enum APIError : Swift.Error {
+  case invalidURL
+  case invalidHTTPResponse
+  case encodingError
+  case requestFailed(Swift.String)
+  case decodingError(any Swift.Error)
+  case missingParameters(Swift.String)
+}
+extension Sis11Framework.Catalog : Swift.Equatable {}
+extension Sis11Framework.Catalog : Swift.Hashable {}
+extension Sis11Framework.Catalog : Swift.RawRepresentable {}
