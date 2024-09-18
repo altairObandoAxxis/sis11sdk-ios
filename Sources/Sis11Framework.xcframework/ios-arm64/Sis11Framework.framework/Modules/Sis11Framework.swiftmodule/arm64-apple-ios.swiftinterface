@@ -1,7 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
-// swift-module-flags: -target arm64-apple-ios17.2 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Sis11Framework
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios17.2 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name Sis11Framework
 import Foundation
 @_exported import Sis11Framework
 import Swift
@@ -110,13 +109,6 @@ public struct EventReason : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-public struct ReturnedUserOutData : Swift.Codable {
-  public let token: Swift.String
-  public let nombre: Swift.String
-  public let email: Swift.String
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
 public struct doCmd : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
@@ -140,13 +132,19 @@ public class DoCmdDto<T> : Swift.Codable where T : Swift.Decodable, T : Swift.En
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
 }
-public class Country : Swift.Codable {
+public struct ReturnedUserOutData : Swift.Codable {
+  public let token: Swift.String
+  public let nombre: Swift.String
+  public let email: Swift.String
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Country : Swift.Codable {
   public var code: Swift.String
   public var name: Swift.String
   public var fatca: Swift.Bool
-  @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
-  required public init(from decoder: any Swift.Decoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct IssueReason : Swift.Codable {
   public var code: Swift.String
@@ -155,8 +153,7 @@ public struct IssueReason : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-public class Portal {
-  public init()
+@_hasMissingDesignatedInitializers public class Portal {
   #if compiler(>=5.3) && $AsyncAwait
   public func GetPortalProducts() async throws -> [Sis11Framework.Product]
   #endif
@@ -347,7 +344,7 @@ public struct MobilePayment : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-public class Options : Swift.Codable, Swift.Identifiable {
+public struct Options : Swift.Codable, Swift.Identifiable {
   public var id: Foundation.UUID?
   public var title: Swift.String
   public var control: Swift.String
@@ -355,12 +352,10 @@ public class Options : Swift.Codable, Swift.Identifiable {
   public var formId: Swift.Int?
   public var htmlForm: Swift.String?
   public typealias ID = Foundation.UUID?
-  @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
-  required public init(from decoder: any Swift.Decoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
-public class DoCmd<T> where T : Swift.Decodable, T : Swift.Encodable {
-  public init()
+@_hasMissingDesignatedInitializers public class DoCmd<T> where T : Swift.Decodable, T : Swift.Encodable {
   #if compiler(>=5.3) && $AsyncAwait
   public func ExeChain(chain: Swift.String, context: Swift.String) async throws -> Sis11Framework.DoCmdDto<T>
   #endif
@@ -481,8 +476,7 @@ public struct Insured : Swift.Codable, Swift.Identifiable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-public class Repository {
-  public init()
+@_hasMissingDesignatedInitializers public class Repository {
   #if compiler(>=5.3) && $AsyncAwait
   public func GetCountries(page: Swift.Int, size: Swift.Int, filter: Swift.String) async throws -> [Sis11Framework.Country]
   #endif
@@ -502,7 +496,7 @@ public class Repository {
   public func GetEventReasons(page: Swift.Int, size: Swift.Int, filter: Swift.String) async throws -> [Sis11Framework.EventReason]
   #endif
   #if compiler(>=5.3) && $AsyncAwait
-  public func GetEventReasons(page: Swift.Int, size: Swift.Int, filter: Swift.String) async throws -> [Sis11Framework.Relationship]
+  public func GetRelationships(page: Swift.Int, size: Swift.Int, filter: Swift.String) async throws -> [Sis11Framework.Relationship]
   #endif
   @objc deinit
 }

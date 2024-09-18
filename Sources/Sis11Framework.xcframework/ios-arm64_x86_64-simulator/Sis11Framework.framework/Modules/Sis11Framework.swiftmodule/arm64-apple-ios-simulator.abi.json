@@ -1093,7 +1093,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -1118,7 +1118,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -2409,7 +2409,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -2434,7 +2434,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -3974,7 +3974,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -4002,7 +4002,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -4540,7 +4540,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -4565,7 +4565,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -4779,7 +4779,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -4804,7 +4804,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -5272,7 +5272,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -5297,7 +5297,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -6057,7 +6057,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -6082,7 +6082,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -6425,7 +6425,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -6450,7 +6450,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -6466,229 +6466,6 @@
         "declKind": "Struct",
         "usr": "s:14Sis11Framework11EventReasonV",
         "mangledName": "$s14Sis11Framework11EventReasonV",
-        "moduleName": "Sis11Framework",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Sis11Framework",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "ReturnedUserOutData",
-        "printedName": "ReturnedUserOutData",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "token",
-            "printedName": "token",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:14Sis11Framework19ReturnedUserOutDataV5tokenSSvp",
-            "mangledName": "$s14Sis11Framework19ReturnedUserOutDataV5tokenSSvp",
-            "moduleName": "Sis11Framework",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:14Sis11Framework19ReturnedUserOutDataV5tokenSSvg",
-                "mangledName": "$s14Sis11Framework19ReturnedUserOutDataV5tokenSSvg",
-                "moduleName": "Sis11Framework",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "nombre",
-            "printedName": "nombre",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:14Sis11Framework19ReturnedUserOutDataV6nombreSSvp",
-            "mangledName": "$s14Sis11Framework19ReturnedUserOutDataV6nombreSSvp",
-            "moduleName": "Sis11Framework",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:14Sis11Framework19ReturnedUserOutDataV6nombreSSvg",
-                "mangledName": "$s14Sis11Framework19ReturnedUserOutDataV6nombreSSvg",
-                "moduleName": "Sis11Framework",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "email",
-            "printedName": "email",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:14Sis11Framework19ReturnedUserOutDataV5emailSSvp",
-            "mangledName": "$s14Sis11Framework19ReturnedUserOutDataV5emailSSvp",
-            "moduleName": "Sis11Framework",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:14Sis11Framework19ReturnedUserOutDataV5emailSSvg",
-                "mangledName": "$s14Sis11Framework19ReturnedUserOutDataV5emailSSvg",
-                "moduleName": "Sis11Framework",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ReturnedUserOutData",
-                "printedName": "Sis11Framework.ReturnedUserOutData",
-                "usr": "s:14Sis11Framework19ReturnedUserOutDataV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "Swift.Decoder",
-                "usr": "s:s7DecoderP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:14Sis11Framework19ReturnedUserOutDataV4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s14Sis11Framework19ReturnedUserOutDataV4fromACs7Decoder_p_tKcfc",
-            "moduleName": "Sis11Framework",
-            "implicit": true,
-            "throwing": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "encode",
-            "printedName": "encode(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Encoder",
-                "printedName": "Swift.Encoder",
-                "usr": "s:s7EncoderP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:14Sis11Framework19ReturnedUserOutDataV6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s14Sis11Framework19ReturnedUserOutDataV6encode2toys7Encoder_p_tKF",
-            "moduleName": "Sis11Framework",
-            "implicit": true,
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:14Sis11Framework19ReturnedUserOutDataV",
-        "mangledName": "$s14Sis11Framework19ReturnedUserOutDataV",
         "moduleName": "Sis11Framework",
         "declAttributes": [
           "AccessControl"
@@ -6736,7 +6513,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -6761,7 +6538,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -6779,7 +6556,8 @@
         "mangledName": "$s14Sis11Framework5doCmdV",
         "moduleName": "Sis11Framework",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -6817,7 +6595,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -6842,7 +6620,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -6860,7 +6638,8 @@
         "mangledName": "$s14Sis11Framework9doCmdDataV",
         "moduleName": "Sis11Framework",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -6986,7 +6765,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -7011,7 +6790,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -7029,7 +6808,8 @@
         "mangledName": "$s14Sis11Framework10GetPingDTOV",
         "moduleName": "Sis11Framework",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -7272,7 +7052,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -7302,7 +7082,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -7323,6 +7103,230 @@
         "moduleName": "Sis11Framework",
         "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
         "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Sis11Framework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ReturnedUserOutData",
+        "printedName": "ReturnedUserOutData",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "token",
+            "printedName": "token",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14Sis11Framework19ReturnedUserOutDataV5tokenSSvp",
+            "mangledName": "$s14Sis11Framework19ReturnedUserOutDataV5tokenSSvp",
+            "moduleName": "Sis11Framework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14Sis11Framework19ReturnedUserOutDataV5tokenSSvg",
+                "mangledName": "$s14Sis11Framework19ReturnedUserOutDataV5tokenSSvg",
+                "moduleName": "Sis11Framework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "nombre",
+            "printedName": "nombre",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14Sis11Framework19ReturnedUserOutDataV6nombreSSvp",
+            "mangledName": "$s14Sis11Framework19ReturnedUserOutDataV6nombreSSvp",
+            "moduleName": "Sis11Framework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14Sis11Framework19ReturnedUserOutDataV6nombreSSvg",
+                "mangledName": "$s14Sis11Framework19ReturnedUserOutDataV6nombreSSvg",
+                "moduleName": "Sis11Framework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "email",
+            "printedName": "email",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14Sis11Framework19ReturnedUserOutDataV5emailSSvp",
+            "mangledName": "$s14Sis11Framework19ReturnedUserOutDataV5emailSSvp",
+            "moduleName": "Sis11Framework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14Sis11Framework19ReturnedUserOutDataV5emailSSvg",
+                "mangledName": "$s14Sis11Framework19ReturnedUserOutDataV5emailSSvg",
+                "moduleName": "Sis11Framework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ReturnedUserOutData",
+                "printedName": "Sis11Framework.ReturnedUserOutData",
+                "usr": "s:14Sis11Framework19ReturnedUserOutDataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14Sis11Framework19ReturnedUserOutDataV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s14Sis11Framework19ReturnedUserOutDataV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "Sis11Framework",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14Sis11Framework19ReturnedUserOutDataV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s14Sis11Framework19ReturnedUserOutDataV6encode2toys7Encoder_p_tKF",
+            "moduleName": "Sis11Framework",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14Sis11Framework19ReturnedUserOutDataV",
+        "mangledName": "$s14Sis11Framework19ReturnedUserOutDataV",
+        "moduleName": "Sis11Framework",
         "declAttributes": [
           "AccessControl"
         ],
@@ -7371,12 +7375,13 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:14Sis11Framework7CountryC4codeSSvp",
-            "mangledName": "$s14Sis11Framework7CountryC4codeSSvp",
+            "usr": "s:14Sis11Framework7CountryV4codeSSvp",
+            "mangledName": "$s14Sis11Framework7CountryV4codeSSvp",
             "moduleName": "Sis11Framework",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -7393,8 +7398,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14Sis11Framework7CountryC4codeSSvg",
-                "mangledName": "$s14Sis11Framework7CountryC4codeSSvg",
+                "usr": "s:14Sis11Framework7CountryV4codeSSvg",
+                "mangledName": "$s14Sis11Framework7CountryV4codeSSvg",
                 "moduleName": "Sis11Framework",
                 "implicit": true,
                 "accessorKind": "get"
@@ -7417,8 +7422,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14Sis11Framework7CountryC4codeSSvs",
-                "mangledName": "$s14Sis11Framework7CountryC4codeSSvs",
+                "usr": "s:14Sis11Framework7CountryV4codeSSvs",
+                "mangledName": "$s14Sis11Framework7CountryV4codeSSvs",
                 "moduleName": "Sis11Framework",
                 "implicit": true,
                 "accessorKind": "set"
@@ -7435,8 +7440,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14Sis11Framework7CountryC4codeSSvM",
-                "mangledName": "$s14Sis11Framework7CountryC4codeSSvM",
+                "usr": "s:14Sis11Framework7CountryV4codeSSvM",
+                "mangledName": "$s14Sis11Framework7CountryV4codeSSvM",
                 "moduleName": "Sis11Framework",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -7456,12 +7461,13 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:14Sis11Framework7CountryC4nameSSvp",
-            "mangledName": "$s14Sis11Framework7CountryC4nameSSvp",
+            "usr": "s:14Sis11Framework7CountryV4nameSSvp",
+            "mangledName": "$s14Sis11Framework7CountryV4nameSSvp",
             "moduleName": "Sis11Framework",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -7478,8 +7484,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14Sis11Framework7CountryC4nameSSvg",
-                "mangledName": "$s14Sis11Framework7CountryC4nameSSvg",
+                "usr": "s:14Sis11Framework7CountryV4nameSSvg",
+                "mangledName": "$s14Sis11Framework7CountryV4nameSSvg",
                 "moduleName": "Sis11Framework",
                 "implicit": true,
                 "accessorKind": "get"
@@ -7502,8 +7508,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14Sis11Framework7CountryC4nameSSvs",
-                "mangledName": "$s14Sis11Framework7CountryC4nameSSvs",
+                "usr": "s:14Sis11Framework7CountryV4nameSSvs",
+                "mangledName": "$s14Sis11Framework7CountryV4nameSSvs",
                 "moduleName": "Sis11Framework",
                 "implicit": true,
                 "accessorKind": "set"
@@ -7520,8 +7526,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14Sis11Framework7CountryC4nameSSvM",
-                "mangledName": "$s14Sis11Framework7CountryC4nameSSvM",
+                "usr": "s:14Sis11Framework7CountryV4nameSSvM",
+                "mangledName": "$s14Sis11Framework7CountryV4nameSSvM",
                 "moduleName": "Sis11Framework",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -7541,12 +7547,13 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:14Sis11Framework7CountryC5fatcaSbvp",
-            "mangledName": "$s14Sis11Framework7CountryC5fatcaSbvp",
+            "usr": "s:14Sis11Framework7CountryV5fatcaSbvp",
+            "mangledName": "$s14Sis11Framework7CountryV5fatcaSbvp",
             "moduleName": "Sis11Framework",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -7563,8 +7570,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14Sis11Framework7CountryC5fatcaSbvg",
-                "mangledName": "$s14Sis11Framework7CountryC5fatcaSbvg",
+                "usr": "s:14Sis11Framework7CountryV5fatcaSbvg",
+                "mangledName": "$s14Sis11Framework7CountryV5fatcaSbvg",
                 "moduleName": "Sis11Framework",
                 "implicit": true,
                 "accessorKind": "get"
@@ -7587,8 +7594,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14Sis11Framework7CountryC5fatcaSbvs",
-                "mangledName": "$s14Sis11Framework7CountryC5fatcaSbvs",
+                "usr": "s:14Sis11Framework7CountryV5fatcaSbvs",
+                "mangledName": "$s14Sis11Framework7CountryV5fatcaSbvs",
                 "moduleName": "Sis11Framework",
                 "implicit": true,
                 "accessorKind": "set"
@@ -7605,8 +7612,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14Sis11Framework7CountryC5fatcaSbvM",
-                "mangledName": "$s14Sis11Framework7CountryC5fatcaSbvM",
+                "usr": "s:14Sis11Framework7CountryV5fatcaSbvM",
+                "mangledName": "$s14Sis11Framework7CountryV5fatcaSbvM",
                 "moduleName": "Sis11Framework",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -7622,23 +7629,20 @@
                 "kind": "TypeNominal",
                 "name": "Country",
                 "printedName": "Sis11Framework.Country",
-                "usr": "s:14Sis11Framework7CountryC"
+                "usr": "s:14Sis11Framework7CountryV"
               },
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:14Sis11Framework7CountryC4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s14Sis11Framework7CountryC4fromACs7Decoder_p_tKcfc",
+            "usr": "s:14Sis11Framework7CountryV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s14Sis11Framework7CountryV4fromACs7Decoder_p_tKcfc",
             "moduleName": "Sis11Framework",
             "implicit": true,
-            "declAttributes": [
-              "Required"
-            ],
             "throwing": true,
             "init_kind": "Designated"
           },
@@ -7655,25 +7659,26 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
             "declKind": "Func",
-            "usr": "s:14Sis11Framework7CountryC6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s14Sis11Framework7CountryC6encode2toys7Encoder_p_tKF",
+            "usr": "s:14Sis11Framework7CountryV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s14Sis11Framework7CountryV6encode2toys7Encoder_p_tKF",
             "moduleName": "Sis11Framework",
             "implicit": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
           }
         ],
-        "declKind": "Class",
-        "usr": "s:14Sis11Framework7CountryC",
-        "mangledName": "$s14Sis11Framework7CountryC",
+        "declKind": "Struct",
+        "usr": "s:14Sis11Framework7CountryV",
+        "mangledName": "$s14Sis11Framework7CountryV",
         "moduleName": "Sis11Framework",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -7976,7 +7981,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -8001,7 +8006,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -8054,27 +8059,6 @@
         "printedName": "Portal",
         "children": [
           {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Portal",
-                "printedName": "Sis11Framework.Portal",
-                "usr": "s:14Sis11Framework6PortalC"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:14Sis11Framework6PortalCACycfc",
-            "mangledName": "$s14Sis11Framework6PortalCACycfc",
-            "moduleName": "Sis11Framework",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
             "kind": "Function",
             "name": "GetPortalProducts",
             "printedName": "GetPortalProducts()",
@@ -8099,7 +8083,8 @@
             "mangledName": "$s14Sis11Framework6PortalC03GetC8ProductsSayAA7ProductVGyYaKF",
             "moduleName": "Sis11Framework",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -8127,7 +8112,8 @@
             "mangledName": "$s14Sis11Framework6PortalC18ParseProductConfig7productAA24SelfServiceConfigurationVAA0E0V_tKF",
             "moduleName": "Sis11Framework",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -8138,8 +8124,10 @@
         "mangledName": "$s14Sis11Framework6PortalC",
         "moduleName": "Sis11Framework",
         "declAttributes": [
-          "AccessControl"
-        ]
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true
       },
       {
         "kind": "Import",
@@ -8290,7 +8278,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -8315,7 +8303,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -8771,7 +8759,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -8796,7 +8784,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -8814,7 +8802,8 @@
         "mangledName": "$s14Sis11Framework8CurrencyV",
         "moduleName": "Sis11Framework",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -8879,7 +8868,8 @@
             "mangledName": "$s14Sis11Framework14RepoLifePolicyC03GetE4ById2idSayAA0dE0CGSi_tYaKF",
             "moduleName": "Sis11Framework",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -8915,7 +8905,8 @@
             "mangledName": "$s14Sis11Framework14RepoLifePolicyC21GetPoliciesByHolderId06holderJ0SayAA0dE0CGSi_tYaKF",
             "moduleName": "Sis11Framework",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -8951,7 +8942,8 @@
             "mangledName": "$s14Sis11Framework14RepoLifePolicyC19GetPoliciesByFilter6filterSayAA0dE0CGSS_tYaKF",
             "moduleName": "Sis11Framework",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -9035,7 +9027,8 @@
             "mangledName": "$s14Sis11Framework14RepoLifePolicyC10GetPayPlan04lifeE2IdSayAA0gH0VGSi_tYaKF",
             "moduleName": "Sis11Framework",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -9046,7 +9039,8 @@
         "mangledName": "$s14Sis11Framework14RepoLifePolicyC",
         "moduleName": "Sis11Framework",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "hasMissingDesignatedInitializers": true
       },
@@ -9227,7 +9221,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -9252,7 +9246,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -9270,7 +9264,8 @@
         "mangledName": "$s14Sis11Framework10PortalDataV",
         "moduleName": "Sis11Framework",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -9818,7 +9813,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -9843,7 +9838,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -9861,7 +9856,8 @@
         "mangledName": "$s14Sis11Framework12StateCatalogV",
         "moduleName": "Sis11Framework",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -10232,7 +10228,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -10257,7 +10253,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -10340,7 +10336,8 @@
             "mangledName": "$s14Sis11Framework9RepoClaimC17GetClaimsByFilter6filterSayAA0D0VGSS_tYaKF",
             "moduleName": "Sis11Framework",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -10376,7 +10373,8 @@
             "mangledName": "$s14Sis11Framework9RepoClaimC03GetD4ById2idAA0D0VSgSi_tYaKF",
             "moduleName": "Sis11Framework",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -10412,7 +10410,8 @@
             "mangledName": "$s14Sis11Framework9RepoClaimC19GetClaimsByPolicyId04lifehI0SayAA0D0VGSi_tYaKF",
             "moduleName": "Sis11Framework",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -10454,7 +10453,8 @@
             "mangledName": "$s14Sis11Framework9RepoClaimC21GetClaimsByAffectedId010lifePolicyI007contactI0SayAA0D0VGSi_SitYaKF",
             "moduleName": "Sis11Framework",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -10465,7 +10465,8 @@
         "mangledName": "$s14Sis11Framework9RepoClaimC",
         "moduleName": "Sis11Framework",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "hasMissingDesignatedInitializers": true
       },
@@ -11040,7 +11041,8 @@
             "mangledName": "$s14Sis11Framework0A3SDKC14changeToBackUp8newValueySb_tF",
             "moduleName": "Sis11Framework",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -11066,7 +11068,8 @@
             "mangledName": "$s14Sis11Framework0A3SDKC12changeApiUrl03neweF0ySS_tF",
             "moduleName": "Sis11Framework",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -11087,7 +11090,8 @@
             "mangledName": "$s14Sis11Framework0A3SDKC9getApiUrlSSyF",
             "moduleName": "Sis11Framework",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -11114,7 +11118,8 @@
             "mangledName": "$s14Sis11Framework0A3SDKC9doRequest11jsonContent10Foundation4DataVAH_tYaKF",
             "moduleName": "Sis11Framework",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -11142,7 +11147,8 @@
             "mangledName": "$s14Sis11Framework0A3SDKC6doAuth11credentialsAA19ReturnedUserOutDataVAA11CredentialsV_tYaKF",
             "moduleName": "Sis11Framework",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -11153,7 +11159,8 @@
         "mangledName": "$s14Sis11Framework0A3SDKC",
         "moduleName": "Sis11Framework",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "hasMissingDesignatedInitializers": true
       },
@@ -11662,7 +11669,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -11687,7 +11694,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -12054,7 +12061,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -12079,7 +12086,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -12293,7 +12300,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -12318,7 +12325,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -14899,7 +14906,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -14924,7 +14931,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -15182,7 +15189,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -15207,7 +15214,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -15317,7 +15324,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -15342,7 +15349,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -15360,7 +15367,8 @@
         "mangledName": "$s14Sis11Framework24SelfServiceConfigurationV",
         "moduleName": "Sis11Framework",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -15502,7 +15510,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -15527,7 +15535,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -15545,7 +15553,8 @@
         "mangledName": "$s14Sis11Framework11SelfServiceV",
         "moduleName": "Sis11Framework",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -15703,7 +15712,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -15728,7 +15737,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -15746,7 +15755,8 @@
         "mangledName": "$s14Sis11Framework11QuoteConfigV",
         "moduleName": "Sis11Framework",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -16001,7 +16011,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -16026,7 +16036,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -16044,7 +16054,8 @@
         "mangledName": "$s14Sis11Framework10StepConfigV",
         "moduleName": "Sis11Framework",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -16109,7 +16120,7 @@
                         "kind": "TypeNominal",
                         "name": "Options",
                         "printedName": "Sis11Framework.Options",
-                        "usr": "s:14Sis11Framework7OptionsC"
+                        "usr": "s:14Sis11Framework7OptionsV"
                       }
                     ],
                     "usr": "s:Sa"
@@ -16119,8 +16130,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:14Sis11Framework13MobilePaymentV7OptionsSayAaDCGSgvp",
-            "mangledName": "$s14Sis11Framework13MobilePaymentV7OptionsSayAaDCGSgvp",
+            "usr": "s:14Sis11Framework13MobilePaymentV7OptionsSayAaDVGSgvp",
+            "mangledName": "$s14Sis11Framework13MobilePaymentV7OptionsSayAaDVGSgvp",
             "moduleName": "Sis11Framework",
             "declAttributes": [
               "HasStorage",
@@ -16148,7 +16159,7 @@
                             "kind": "TypeNominal",
                             "name": "Options",
                             "printedName": "Sis11Framework.Options",
-                            "usr": "s:14Sis11Framework7OptionsC"
+                            "usr": "s:14Sis11Framework7OptionsV"
                           }
                         ],
                         "usr": "s:Sa"
@@ -16158,8 +16169,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14Sis11Framework13MobilePaymentV7OptionsSayAaDCGSgvg",
-                "mangledName": "$s14Sis11Framework13MobilePaymentV7OptionsSayAaDCGSgvg",
+                "usr": "s:14Sis11Framework13MobilePaymentV7OptionsSayAaDVGSgvg",
+                "mangledName": "$s14Sis11Framework13MobilePaymentV7OptionsSayAaDVGSgvg",
                 "moduleName": "Sis11Framework",
                 "implicit": true,
                 "accessorKind": "get"
@@ -16180,7 +16191,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -16205,7 +16216,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -16223,7 +16234,8 @@
         "mangledName": "$s14Sis11Framework13MobilePaymentV",
         "moduleName": "Sis11Framework",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -16268,8 +16280,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:14Sis11Framework7OptionsC2id10Foundation4UUIDVSgvp",
-            "mangledName": "$s14Sis11Framework7OptionsC2id10Foundation4UUIDVSgvp",
+            "usr": "s:14Sis11Framework7OptionsV2id10Foundation4UUIDVSgvp",
+            "mangledName": "$s14Sis11Framework7OptionsV2id10Foundation4UUIDVSgvp",
             "moduleName": "Sis11Framework",
             "declAttributes": [
               "HasInitialValue",
@@ -16299,8 +16311,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14Sis11Framework7OptionsC2id10Foundation4UUIDVSgvg",
-                "mangledName": "$s14Sis11Framework7OptionsC2id10Foundation4UUIDVSgvg",
+                "usr": "s:14Sis11Framework7OptionsV2id10Foundation4UUIDVSgvg",
+                "mangledName": "$s14Sis11Framework7OptionsV2id10Foundation4UUIDVSgvg",
                 "moduleName": "Sis11Framework",
                 "implicit": true,
                 "accessorKind": "get"
@@ -16331,8 +16343,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14Sis11Framework7OptionsC2id10Foundation4UUIDVSgvs",
-                "mangledName": "$s14Sis11Framework7OptionsC2id10Foundation4UUIDVSgvs",
+                "usr": "s:14Sis11Framework7OptionsV2id10Foundation4UUIDVSgvs",
+                "mangledName": "$s14Sis11Framework7OptionsV2id10Foundation4UUIDVSgvs",
                 "moduleName": "Sis11Framework",
                 "implicit": true,
                 "accessorKind": "set"
@@ -16349,8 +16361,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14Sis11Framework7OptionsC2id10Foundation4UUIDVSgvM",
-                "mangledName": "$s14Sis11Framework7OptionsC2id10Foundation4UUIDVSgvM",
+                "usr": "s:14Sis11Framework7OptionsV2id10Foundation4UUIDVSgvM",
+                "mangledName": "$s14Sis11Framework7OptionsV2id10Foundation4UUIDVSgvM",
                 "moduleName": "Sis11Framework",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -16370,8 +16382,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:14Sis11Framework7OptionsC5titleSSvp",
-            "mangledName": "$s14Sis11Framework7OptionsC5titleSSvp",
+            "usr": "s:14Sis11Framework7OptionsV5titleSSvp",
+            "mangledName": "$s14Sis11Framework7OptionsV5titleSSvp",
             "moduleName": "Sis11Framework",
             "declAttributes": [
               "HasStorage",
@@ -16392,8 +16404,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14Sis11Framework7OptionsC5titleSSvg",
-                "mangledName": "$s14Sis11Framework7OptionsC5titleSSvg",
+                "usr": "s:14Sis11Framework7OptionsV5titleSSvg",
+                "mangledName": "$s14Sis11Framework7OptionsV5titleSSvg",
                 "moduleName": "Sis11Framework",
                 "implicit": true,
                 "accessorKind": "get"
@@ -16416,8 +16428,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14Sis11Framework7OptionsC5titleSSvs",
-                "mangledName": "$s14Sis11Framework7OptionsC5titleSSvs",
+                "usr": "s:14Sis11Framework7OptionsV5titleSSvs",
+                "mangledName": "$s14Sis11Framework7OptionsV5titleSSvs",
                 "moduleName": "Sis11Framework",
                 "implicit": true,
                 "accessorKind": "set"
@@ -16434,8 +16446,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14Sis11Framework7OptionsC5titleSSvM",
-                "mangledName": "$s14Sis11Framework7OptionsC5titleSSvM",
+                "usr": "s:14Sis11Framework7OptionsV5titleSSvM",
+                "mangledName": "$s14Sis11Framework7OptionsV5titleSSvM",
                 "moduleName": "Sis11Framework",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -16455,8 +16467,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:14Sis11Framework7OptionsC7controlSSvp",
-            "mangledName": "$s14Sis11Framework7OptionsC7controlSSvp",
+            "usr": "s:14Sis11Framework7OptionsV7controlSSvp",
+            "mangledName": "$s14Sis11Framework7OptionsV7controlSSvp",
             "moduleName": "Sis11Framework",
             "declAttributes": [
               "HasStorage",
@@ -16477,8 +16489,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14Sis11Framework7OptionsC7controlSSvg",
-                "mangledName": "$s14Sis11Framework7OptionsC7controlSSvg",
+                "usr": "s:14Sis11Framework7OptionsV7controlSSvg",
+                "mangledName": "$s14Sis11Framework7OptionsV7controlSSvg",
                 "moduleName": "Sis11Framework",
                 "implicit": true,
                 "accessorKind": "get"
@@ -16501,8 +16513,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14Sis11Framework7OptionsC7controlSSvs",
-                "mangledName": "$s14Sis11Framework7OptionsC7controlSSvs",
+                "usr": "s:14Sis11Framework7OptionsV7controlSSvs",
+                "mangledName": "$s14Sis11Framework7OptionsV7controlSSvs",
                 "moduleName": "Sis11Framework",
                 "implicit": true,
                 "accessorKind": "set"
@@ -16519,8 +16531,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14Sis11Framework7OptionsC7controlSSvM",
-                "mangledName": "$s14Sis11Framework7OptionsC7controlSSvM",
+                "usr": "s:14Sis11Framework7OptionsV7controlSSvM",
+                "mangledName": "$s14Sis11Framework7OptionsV7controlSSvM",
                 "moduleName": "Sis11Framework",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -16548,8 +16560,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:14Sis11Framework7OptionsC5chainSSSgvp",
-            "mangledName": "$s14Sis11Framework7OptionsC5chainSSSgvp",
+            "usr": "s:14Sis11Framework7OptionsV5chainSSSgvp",
+            "mangledName": "$s14Sis11Framework7OptionsV5chainSSSgvp",
             "moduleName": "Sis11Framework",
             "declAttributes": [
               "HasInitialValue",
@@ -16579,8 +16591,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14Sis11Framework7OptionsC5chainSSSgvg",
-                "mangledName": "$s14Sis11Framework7OptionsC5chainSSSgvg",
+                "usr": "s:14Sis11Framework7OptionsV5chainSSSgvg",
+                "mangledName": "$s14Sis11Framework7OptionsV5chainSSSgvg",
                 "moduleName": "Sis11Framework",
                 "implicit": true,
                 "accessorKind": "get"
@@ -16611,8 +16623,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14Sis11Framework7OptionsC5chainSSSgvs",
-                "mangledName": "$s14Sis11Framework7OptionsC5chainSSSgvs",
+                "usr": "s:14Sis11Framework7OptionsV5chainSSSgvs",
+                "mangledName": "$s14Sis11Framework7OptionsV5chainSSSgvs",
                 "moduleName": "Sis11Framework",
                 "implicit": true,
                 "accessorKind": "set"
@@ -16629,8 +16641,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14Sis11Framework7OptionsC5chainSSSgvM",
-                "mangledName": "$s14Sis11Framework7OptionsC5chainSSSgvM",
+                "usr": "s:14Sis11Framework7OptionsV5chainSSSgvM",
+                "mangledName": "$s14Sis11Framework7OptionsV5chainSSSgvM",
                 "moduleName": "Sis11Framework",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -16658,8 +16670,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:14Sis11Framework7OptionsC6formIdSiSgvp",
-            "mangledName": "$s14Sis11Framework7OptionsC6formIdSiSgvp",
+            "usr": "s:14Sis11Framework7OptionsV6formIdSiSgvp",
+            "mangledName": "$s14Sis11Framework7OptionsV6formIdSiSgvp",
             "moduleName": "Sis11Framework",
             "declAttributes": [
               "HasInitialValue",
@@ -16689,8 +16701,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14Sis11Framework7OptionsC6formIdSiSgvg",
-                "mangledName": "$s14Sis11Framework7OptionsC6formIdSiSgvg",
+                "usr": "s:14Sis11Framework7OptionsV6formIdSiSgvg",
+                "mangledName": "$s14Sis11Framework7OptionsV6formIdSiSgvg",
                 "moduleName": "Sis11Framework",
                 "implicit": true,
                 "accessorKind": "get"
@@ -16721,8 +16733,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14Sis11Framework7OptionsC6formIdSiSgvs",
-                "mangledName": "$s14Sis11Framework7OptionsC6formIdSiSgvs",
+                "usr": "s:14Sis11Framework7OptionsV6formIdSiSgvs",
+                "mangledName": "$s14Sis11Framework7OptionsV6formIdSiSgvs",
                 "moduleName": "Sis11Framework",
                 "implicit": true,
                 "accessorKind": "set"
@@ -16739,8 +16751,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14Sis11Framework7OptionsC6formIdSiSgvM",
-                "mangledName": "$s14Sis11Framework7OptionsC6formIdSiSgvM",
+                "usr": "s:14Sis11Framework7OptionsV6formIdSiSgvM",
+                "mangledName": "$s14Sis11Framework7OptionsV6formIdSiSgvM",
                 "moduleName": "Sis11Framework",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -16768,8 +16780,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:14Sis11Framework7OptionsC8htmlFormSSSgvp",
-            "mangledName": "$s14Sis11Framework7OptionsC8htmlFormSSSgvp",
+            "usr": "s:14Sis11Framework7OptionsV8htmlFormSSSgvp",
+            "mangledName": "$s14Sis11Framework7OptionsV8htmlFormSSSgvp",
             "moduleName": "Sis11Framework",
             "declAttributes": [
               "HasInitialValue",
@@ -16799,8 +16811,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14Sis11Framework7OptionsC8htmlFormSSSgvg",
-                "mangledName": "$s14Sis11Framework7OptionsC8htmlFormSSSgvg",
+                "usr": "s:14Sis11Framework7OptionsV8htmlFormSSSgvg",
+                "mangledName": "$s14Sis11Framework7OptionsV8htmlFormSSSgvg",
                 "moduleName": "Sis11Framework",
                 "implicit": true,
                 "accessorKind": "get"
@@ -16831,8 +16843,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14Sis11Framework7OptionsC8htmlFormSSSgvs",
-                "mangledName": "$s14Sis11Framework7OptionsC8htmlFormSSSgvs",
+                "usr": "s:14Sis11Framework7OptionsV8htmlFormSSSgvs",
+                "mangledName": "$s14Sis11Framework7OptionsV8htmlFormSSSgvs",
                 "moduleName": "Sis11Framework",
                 "implicit": true,
                 "accessorKind": "set"
@@ -16849,8 +16861,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14Sis11Framework7OptionsC8htmlFormSSSgvM",
-                "mangledName": "$s14Sis11Framework7OptionsC8htmlFormSSSgvM",
+                "usr": "s:14Sis11Framework7OptionsV8htmlFormSSSgvM",
+                "mangledName": "$s14Sis11Framework7OptionsV8htmlFormSSSgvM",
                 "moduleName": "Sis11Framework",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -16866,23 +16878,20 @@
                 "kind": "TypeNominal",
                 "name": "Options",
                 "printedName": "Sis11Framework.Options",
-                "usr": "s:14Sis11Framework7OptionsC"
+                "usr": "s:14Sis11Framework7OptionsV"
               },
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:14Sis11Framework7OptionsC4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s14Sis11Framework7OptionsC4fromACs7Decoder_p_tKcfc",
+            "usr": "s:14Sis11Framework7OptionsV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s14Sis11Framework7OptionsV4fromACs7Decoder_p_tKcfc",
             "moduleName": "Sis11Framework",
             "implicit": true,
-            "declAttributes": [
-              "Required"
-            ],
             "throwing": true,
             "init_kind": "Designated"
           },
@@ -16899,25 +16908,26 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
             "declKind": "Func",
-            "usr": "s:14Sis11Framework7OptionsC6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s14Sis11Framework7OptionsC6encode2toys7Encoder_p_tKF",
+            "usr": "s:14Sis11Framework7OptionsV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s14Sis11Framework7OptionsV6encode2toys7Encoder_p_tKF",
             "moduleName": "Sis11Framework",
             "implicit": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
           }
         ],
-        "declKind": "Class",
-        "usr": "s:14Sis11Framework7OptionsC",
-        "mangledName": "$s14Sis11Framework7OptionsC",
+        "declKind": "Struct",
+        "usr": "s:14Sis11Framework7OptionsV",
+        "mangledName": "$s14Sis11Framework7OptionsV",
         "moduleName": "Sis11Framework",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -16982,36 +16992,6 @@
         "printedName": "DoCmd",
         "children": [
           {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "DoCmd",
-                "printedName": "Sis11Framework.DoCmd<τ_0_0>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "GenericTypeParam",
-                    "printedName": "τ_0_0"
-                  }
-                ],
-                "usr": "s:14Sis11Framework5DoCmdC"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:14Sis11Framework5DoCmdCACyxGycfc",
-            "mangledName": "$s14Sis11Framework5DoCmdCACyxGycfc",
-            "moduleName": "Sis11Framework",
-            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
-            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
             "kind": "Function",
             "name": "ExeChain",
             "printedName": "ExeChain(chain:context:)",
@@ -17049,7 +17029,8 @@
             "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
             "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -17106,7 +17087,8 @@
             "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
             "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -17119,8 +17101,10 @@
         "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
         "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
         "declAttributes": [
-          "AccessControl"
-        ]
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true
       },
       {
         "kind": "Import",
@@ -17299,7 +17283,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -17324,7 +17308,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -18940,7 +18924,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -18965,7 +18949,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -19302,7 +19286,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -19327,7 +19311,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -19563,7 +19547,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -19588,7 +19572,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -20264,7 +20248,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -20289,7 +20273,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -20307,7 +20291,8 @@
         "mangledName": "$s14Sis11Framework12RelationshipV",
         "moduleName": "Sis11Framework",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -20525,7 +20510,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -20550,7 +20535,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -20627,7 +20612,8 @@
             "mangledName": "$s14Sis11Framework14ContactActionsC03GetC4DataAA0cf3OutF0VSgyYaKF",
             "moduleName": "Sis11Framework",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -20655,7 +20641,8 @@
             "mangledName": "$s14Sis11Framework14ContactActionsC03Getc6DataByC2Id07contactH0AA0cf3OutF0VSi_tYaKF",
             "moduleName": "Sis11Framework",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -20691,7 +20678,8 @@
             "mangledName": "$s14Sis11Framework14ContactActionsC013GetPoliciesByC2Id07contactH0SayAA10LifePolicyCGSi_tYaKF",
             "moduleName": "Sis11Framework",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -20727,7 +20715,8 @@
             "mangledName": "$s14Sis11Framework14ContactActionsC011GetIssuesByC2Id07contactH0SayAA5IssueVGSi_tYaKF",
             "moduleName": "Sis11Framework",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -20763,7 +20752,8 @@
             "mangledName": "$s14Sis11Framework14ContactActionsC14CreateNewIssue03newG0SayAA0G0VGAG_tYaKF",
             "moduleName": "Sis11Framework",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -20774,7 +20764,8 @@
         "mangledName": "$s14Sis11Framework14ContactActionsC",
         "moduleName": "Sis11Framework",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "hasMissingDesignatedInitializers": true
       },
@@ -21005,7 +20996,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -21030,7 +21021,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -21436,7 +21427,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -21461,7 +21452,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -21649,7 +21640,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -21674,7 +21665,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -21960,7 +21951,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -21985,7 +21976,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -22060,27 +22051,6 @@
         "printedName": "Repository",
         "children": [
           {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Repository",
-                "printedName": "Sis11Framework.Repository",
-                "usr": "s:14Sis11Framework10RepositoryC"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:14Sis11Framework10RepositoryCACycfc",
-            "mangledName": "$s14Sis11Framework10RepositoryCACycfc",
-            "moduleName": "Sis11Framework",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
             "kind": "Function",
             "name": "GetCountries",
             "printedName": "GetCountries(page:size:filter:)",
@@ -22094,7 +22064,7 @@
                     "kind": "TypeNominal",
                     "name": "Country",
                     "printedName": "Sis11Framework.Country",
-                    "usr": "s:14Sis11Framework7CountryC"
+                    "usr": "s:14Sis11Framework7CountryV"
                   }
                 ],
                 "usr": "s:Sa"
@@ -22119,11 +22089,12 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:14Sis11Framework10RepositoryC12GetCountries4page4size6filterSayAA7CountryCGSi_SiSStYaKF",
-            "mangledName": "$s14Sis11Framework10RepositoryC12GetCountries4page4size6filterSayAA7CountryCGSi_SiSStYaKF",
+            "usr": "s:14Sis11Framework10RepositoryC12GetCountries4page4size6filterSayAA7CountryVGSi_SiSStYaKF",
+            "mangledName": "$s14Sis11Framework10RepositoryC12GetCountries4page4size6filterSayAA7CountryVGSi_SiSStYaKF",
             "moduleName": "Sis11Framework",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -22171,7 +22142,8 @@
             "mangledName": "$s14Sis11Framework10RepositoryC9GetStates4page4size6filterSayAA12StateCatalogVGSi_SiSStYaKF",
             "moduleName": "Sis11Framework",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -22219,7 +22191,8 @@
             "mangledName": "$s14Sis11Framework10RepositoryC9GetCities4page4size6filterSayAA4CityVGSi_SiSStYaKF",
             "moduleName": "Sis11Framework",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -22267,7 +22240,8 @@
             "mangledName": "$s14Sis11Framework10RepositoryC13GetCurrencies4page4size6filterSayAA8CurrencyVGSi_SiSStYaKF",
             "moduleName": "Sis11Framework",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -22315,7 +22289,8 @@
             "mangledName": "$s14Sis11Framework10RepositoryC16GetInsuredEvents4page4size6filterSayAA0E5EventVGSi_SiSStYaKF",
             "moduleName": "Sis11Framework",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -22363,15 +22338,16 @@
             "mangledName": "$s14Sis11Framework10RepositoryC15GetEventReasons4page4size6filterSayAA0E6ReasonVGSi_SiSStYaKF",
             "moduleName": "Sis11Framework",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Function",
-            "name": "GetEventReasons",
-            "printedName": "GetEventReasons(page:size:filter:)",
+            "name": "GetRelationships",
+            "printedName": "GetRelationships(page:size:filter:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -22407,11 +22383,12 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:14Sis11Framework10RepositoryC15GetEventReasons4page4size6filterSayAA12RelationshipVGSi_SiSStYaKF",
-            "mangledName": "$s14Sis11Framework10RepositoryC15GetEventReasons4page4size6filterSayAA12RelationshipVGSi_SiSStYaKF",
+            "usr": "s:14Sis11Framework10RepositoryC16GetRelationships4page4size6filterSayAA12RelationshipVGSi_SiSStYaKF",
+            "mangledName": "$s14Sis11Framework10RepositoryC16GetRelationships4page4size6filterSayAA12RelationshipVGSi_SiSStYaKF",
             "moduleName": "Sis11Framework",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -22422,8 +22399,10 @@
         "mangledName": "$s14Sis11Framework10RepositoryC",
         "moduleName": "Sis11Framework",
         "declAttributes": [
-          "AccessControl"
-        ]
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true
       },
       {
         "kind": "TypeDecl",
@@ -22767,7 +22746,8 @@
         "mangledName": "$s14Sis11Framework7CatalogO",
         "moduleName": "Sis11Framework",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "enumRawTypeName": "String",
         "conformances": [
@@ -23253,7 +23233,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -23278,7 +23258,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -23296,7 +23276,8 @@
         "mangledName": "$s14Sis11Framework4CityV",
         "moduleName": "Sis11Framework",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -23536,12 +23517,12 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Sis11Framework.AuthErrors.Type) -> (Swift.Error) -> Sis11Framework.AuthErrors",
+                "printedName": "(Sis11Framework.AuthErrors.Type) -> (any Swift.Error) -> Sis11Framework.AuthErrors",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.Error) -> Sis11Framework.AuthErrors",
+                    "printedName": "(any Swift.Error) -> Sis11Framework.AuthErrors",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -23552,7 +23533,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ]
@@ -23787,12 +23768,12 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Sis11Framework.APIError.Type) -> (Swift.Error) -> Sis11Framework.APIError",
+                "printedName": "(Sis11Framework.APIError.Type) -> (any Swift.Error) -> Sis11Framework.APIError",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.Error) -> Sis11Framework.APIError",
+                    "printedName": "(any Swift.Error) -> Sis11Framework.APIError",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -23803,7 +23784,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ]
@@ -23909,996 +23890,170 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/DTO\/LifePolicy\/LifePolicy.swift",
+      "filePath": "\/Users\/noelobando\/Docs\/Sis11 App\/IOS\/sis11sdk\/Sis11Framework\/DTO\/LifePolicy\/LifePolicy.swift",
       "kind": "IntegerLiteral",
       "offset": 471,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/DTO\/Issues\/IssueRepoResponse.swift",
+      "filePath": "\/Users\/noelobando\/Docs\/Sis11 App\/IOS\/sis11sdk\/Sis11Framework\/DTO\/Issues\/IssueRepoResponse.swift",
       "kind": "StringLiteral",
       "offset": 174,
       "length": 11,
       "value": "\"RepoIssue\""
     },
     {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/DTO\/Util\/doCmd.swift",
+      "filePath": "\/Users\/noelobando\/Docs\/Sis11 App\/IOS\/sis11sdk\/Sis11Framework\/DTO\/Util\/doCmd.swift",
       "kind": "BooleanLiteral",
-      "offset": 241,
+      "offset": 416,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/Portal.swift",
-      "kind": "Dictionary",
-      "offset": 235,
-      "length": 27,
-      "value": "[(\"cmd\", \"GetPortalProducts\")]"
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/Portal.swift",
-      "kind": "Array",
-      "offset": 355,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/RepoLifePolicy.swift",
-      "kind": "StringLiteral",
-      "offset": 246,
-      "length": 10,
-      "value": "\"id=\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/RepoLifePolicy.swift",
-      "kind": "StringLiteral",
-      "offset": 255,
-      "length": 3,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/RepoLifePolicy.swift",
-      "kind": "StringLiteral",
-      "offset": 410,
-      "length": 22,
-      "value": "\"holderId=\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/RepoLifePolicy.swift",
-      "kind": "StringLiteral",
-      "offset": 431,
-      "length": 3,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/RepoLifePolicy.swift",
-      "kind": "StringLiteral",
-      "offset": 582,
-      "length": 5,
-      "value": "\"cmd\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/RepoLifePolicy.swift",
-      "kind": "StringLiteral",
-      "offset": 589,
-      "length": 16,
-      "value": "\"RepoLifePolicy\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/RepoLifePolicy.swift",
-      "kind": "StringLiteral",
-      "offset": 619,
-      "length": 6,
-      "value": "\"data\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/RepoLifePolicy.swift",
-      "kind": "StringLiteral",
-      "offset": 645,
-      "length": 11,
-      "value": "\"operation\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/RepoLifePolicy.swift",
-      "kind": "StringLiteral",
-      "offset": 657,
-      "length": 5,
-      "value": "\"GET\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/RepoLifePolicy.swift",
-      "kind": "StringLiteral",
-      "offset": 680,
-      "length": 12,
-      "value": "\"noTracking\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/RepoLifePolicy.swift",
-      "kind": "StringLiteral",
-      "offset": 694,
-      "length": 6,
-      "value": "\"true\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/RepoLifePolicy.swift",
-      "kind": "StringLiteral",
-      "offset": 718,
-      "length": 8,
-      "value": "\"filter\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/RepoLifePolicy.swift",
-      "kind": "StringLiteral",
-      "offset": 752,
-      "length": 9,
-      "value": "\"include\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/RepoLifePolicy.swift",
-      "kind": "Array",
-      "offset": 763,
-      "length": 41,
-      "value": "[\"Coverages\", \"Insureds\", \"InsuredObjects\"]"
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/RepoLifePolicy.swift",
-      "kind": "Array",
-      "offset": 921,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/RepoLifePolicy.swift",
-      "kind": "StringLiteral",
-      "offset": 1795,
-      "length": 10,
-      "value": "\"holderId\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/RepoLifePolicy.swift",
-      "kind": "StringLiteral",
-      "offset": 1853,
-      "length": 52,
-      "value": "\"Parameter holderId is required for quote a product\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/RepoLifePolicy.swift",
-      "kind": "StringLiteral",
-      "offset": 1996,
-      "length": 55,
-      "value": "\"Parameter productCode is required for quote a product\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/RepoLifePolicy.swift",
-      "kind": "StringLiteral",
-      "offset": 2116,
-      "length": 5,
-      "value": "\"cmd\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/RepoLifePolicy.swift",
-      "kind": "StringLiteral",
-      "offset": 2122,
-      "length": 20,
-      "value": "\"QuotePortalProduct\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/RepoLifePolicy.swift",
-      "kind": "StringLiteral",
-      "offset": 2156,
-      "length": 6,
-      "value": "\"data\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/RepoLifePolicy.swift",
-      "kind": "StringLiteral",
-      "offset": 2165,
-      "length": 13,
-      "value": "\"jFormValues\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/RepoLifePolicy.swift",
-      "kind": "StringLiteral",
-      "offset": 2192,
-      "length": 13,
-      "value": "\"productCode\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/RepoLifePolicy.swift",
-      "kind": "Array",
-      "offset": 2322,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/RepoLifePolicy.swift",
-      "kind": "StringLiteral",
-      "offset": 2980,
-      "length": 5,
-      "value": "\"cmd\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/RepoLifePolicy.swift",
-      "kind": "StringLiteral",
-      "offset": 2986,
-      "length": 13,
-      "value": "\"RepoPayPlan\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/RepoLifePolicy.swift",
-      "kind": "StringLiteral",
-      "offset": 3013,
-      "length": 6,
-      "value": "\"data\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/RepoLifePolicy.swift",
-      "kind": "StringLiteral",
-      "offset": 3073,
-      "length": 8,
-      "value": "\"filter\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/RepoLifePolicy.swift",
-      "kind": "StringLiteral",
-      "offset": 3082,
-      "length": 30,
-      "value": "\"lifePolicyId=\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/RepoLifePolicy.swift",
-      "kind": "StringLiteral",
-      "offset": 3111,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/RepoLifePolicy.swift",
-      "kind": "Array",
-      "offset": 3228,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/DTO\/Issues\/IssueData.swift",
+      "filePath": "\/Users\/noelobando\/Docs\/Sis11 App\/IOS\/sis11sdk\/Sis11Framework\/DTO\/Issues\/IssueData.swift",
       "kind": "StringLiteral",
       "offset": 168,
       "length": 5,
       "value": "\"ADD\""
     },
     {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/DTO\/Issues\/IssueData.swift",
-      "kind": "StringLiteral",
-      "offset": 317,
-      "length": 5,
-      "value": "\"ADD\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/RepoClaim.swift",
-      "kind": "StringLiteral",
-      "offset": 241,
-      "length": 5,
-      "value": "\"cmd\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/RepoClaim.swift",
-      "kind": "StringLiteral",
-      "offset": 248,
-      "length": 11,
-      "value": "\"RepoClaim\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/RepoClaim.swift",
-      "kind": "StringLiteral",
-      "offset": 273,
-      "length": 6,
-      "value": "\"data\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/RepoClaim.swift",
-      "kind": "StringLiteral",
-      "offset": 299,
-      "length": 11,
-      "value": "\"operation\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/RepoClaim.swift",
-      "kind": "StringLiteral",
-      "offset": 311,
-      "length": 5,
-      "value": "\"GET\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/RepoClaim.swift",
-      "kind": "StringLiteral",
-      "offset": 334,
-      "length": 12,
-      "value": "\"noTracking\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/RepoClaim.swift",
-      "kind": "StringLiteral",
-      "offset": 348,
-      "length": 6,
-      "value": "\"true\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/RepoClaim.swift",
-      "kind": "StringLiteral",
-      "offset": 372,
-      "length": 8,
-      "value": "\"filter\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/RepoClaim.swift",
-      "kind": "StringLiteral",
-      "offset": 406,
-      "length": 9,
-      "value": "\"include\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/RepoClaim.swift",
-      "kind": "Array",
-      "offset": 417,
-      "length": 30,
-      "value": "[\"EventReason\", \"InsuredEvent\"]"
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/RepoClaim.swift",
-      "kind": "Array",
-      "offset": 564,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/RepoClaim.swift",
-      "kind": "StringLiteral",
-      "offset": 1056,
-      "length": 10,
-      "value": "\"id=\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/RepoClaim.swift",
-      "kind": "StringLiteral",
-      "offset": 1065,
-      "length": 8,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/RepoClaim.swift",
-      "kind": "StringLiteral",
-      "offset": 1213,
-      "length": 30,
-      "value": "\"lifePolicyId=\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/RepoClaim.swift",
-      "kind": "StringLiteral",
-      "offset": 1242,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/RepoClaim.swift",
-      "kind": "StringLiteral",
-      "offset": 1400,
-      "length": 57,
-      "value": "\"lifePolicyId=\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/RepoClaim.swift",
-      "kind": "StringLiteral",
-      "offset": 1429,
-      "length": 3,
-      "value": "\" AND contactId=\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/RepoClaim.swift",
-      "kind": "StringLiteral",
-      "offset": 1456,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Sis11SDK.swift",
+      "filePath": "\/Users\/noelobando\/Docs\/Sis11 App\/IOS\/sis11sdk\/Sis11Framework\/Sis11SDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 428,
+      "offset": 565,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Sis11SDK.swift",
+      "filePath": "\/Users\/noelobando\/Docs\/Sis11 App\/IOS\/sis11sdk\/Sis11Framework\/Sis11SDK.swift",
       "kind": "StringLiteral",
-      "offset": 470,
+      "offset": 607,
       "length": 44,
       "value": "\"https:\/\/sisos-eu.azurewebsites.net\/api\/cmd\""
     },
     {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Sis11SDK.swift",
+      "filePath": "\/Users\/noelobando\/Docs\/Sis11 App\/IOS\/sis11sdk\/Sis11Framework\/Sis11SDK.swift",
       "kind": "StringLiteral",
-      "offset": 552,
+      "offset": 689,
       "length": 57,
       "value": "\"https:\/\/sisos-eu.azurewebsites.net\/api\/pub\/authenticate\""
     },
     {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Sis11SDK.swift",
+      "filePath": "\/Users\/noelobando\/Docs\/Sis11 App\/IOS\/sis11sdk\/Sis11Framework\/Sis11SDK.swift",
       "kind": "StringLiteral",
-      "offset": 648,
+      "offset": 785,
       "length": 44,
       "value": "\"https:\/\/sisos-eu.azurewebsites.net\/api\/cmd\""
     },
     {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Sis11SDK.swift",
+      "filePath": "\/Users\/noelobando\/Docs\/Sis11 App\/IOS\/sis11sdk\/Sis11Framework\/Sis11SDK.swift",
       "kind": "StringLiteral",
-      "offset": 725,
+      "offset": 862,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Sis11SDK.swift",
-      "kind": "StringLiteral",
-      "offset": 1186,
-      "length": 6,
-      "value": "\"POST\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Sis11SDK.swift",
-      "kind": "StringLiteral",
-      "offset": 1218,
-      "length": 18,
-      "value": "\"application\/json\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Sis11SDK.swift",
-      "kind": "StringLiteral",
-      "offset": 1258,
-      "length": 14,
-      "value": "\"Content-Type\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Sis11SDK.swift",
-      "kind": "StringLiteral",
-      "offset": 1300,
-      "length": 22,
-      "value": "\"Bearer \""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Sis11SDK.swift",
-      "kind": "StringLiteral",
-      "offset": 1321,
-      "length": 24,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Sis11SDK.swift",
-      "kind": "StringLiteral",
-      "offset": 1344,
-      "length": 15,
-      "value": "\"Authorization\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Sis11SDK.swift",
-      "kind": "StringLiteral",
-      "offset": 1534,
-      "length": 6,
-      "value": "\"POST\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Sis11SDK.swift",
-      "kind": "StringLiteral",
-      "offset": 1566,
-      "length": 18,
-      "value": "\"application\/json\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Sis11SDK.swift",
-      "kind": "StringLiteral",
-      "offset": 1606,
-      "length": 14,
-      "value": "\"Content-Type\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Sis11SDK.swift",
-      "kind": "StringLiteral",
-      "offset": 1648,
-      "length": 34,
-      "value": "\"Bearer \""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Sis11SDK.swift",
-      "kind": "StringLiteral",
-      "offset": 1678,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Sis11SDK.swift",
-      "kind": "StringLiteral",
-      "offset": 1681,
-      "length": 24,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Sis11SDK.swift",
-      "kind": "StringLiteral",
-      "offset": 1704,
-      "length": 15,
-      "value": "\"Authorization\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/DoCmd.swift",
-      "kind": "StringLiteral",
-      "offset": 282,
-      "length": 5,
-      "value": "\"cmd\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/DoCmd.swift",
-      "kind": "StringLiteral",
-      "offset": 289,
-      "length": 10,
-      "value": "\"ExeChain\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/DoCmd.swift",
-      "kind": "StringLiteral",
-      "offset": 313,
-      "length": 6,
-      "value": "\"data\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/DoCmd.swift",
-      "kind": "StringLiteral",
-      "offset": 339,
-      "length": 7,
-      "value": "\"chain\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/DoCmd.swift",
-      "kind": "StringLiteral",
-      "offset": 371,
-      "length": 9,
-      "value": "\"context\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/DoCmd.swift",
-      "kind": "Array",
-      "offset": 506,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/DoCmd.swift",
-      "kind": "StringLiteral",
-      "offset": 1017,
-      "length": 5,
-      "value": "\"cmd\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/DoCmd.swift",
-      "kind": "StringLiteral",
-      "offset": 1041,
-      "length": 6,
-      "value": "\"data\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/DoCmd.swift",
-      "kind": "Array",
-      "offset": 1156,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/ContactData.swift",
-      "kind": "StringLiteral",
-      "offset": 276,
-      "length": 5,
-      "value": "\"cmd\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/ContactData.swift",
-      "kind": "StringLiteral",
-      "offset": 283,
-      "length": 16,
-      "value": "\"GetContactData\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/ContactData.swift",
-      "kind": "StringLiteral",
-      "offset": 313,
-      "length": 6,
-      "value": "\"data\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/ContactData.swift",
-      "kind": "StringLiteral",
-      "offset": 322,
-      "length": 7,
-      "value": "\"token\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/ContactData.swift",
-      "kind": "Array",
-      "offset": 444,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/ContactData.swift",
-      "kind": "StringLiteral",
-      "offset": 999,
-      "length": 5,
-      "value": "\"cmd\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/ContactData.swift",
-      "kind": "StringLiteral",
-      "offset": 1006,
-      "length": 16,
-      "value": "\"GetContactData\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/ContactData.swift",
-      "kind": "StringLiteral",
-      "offset": 1036,
-      "length": 6,
-      "value": "\"data\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/ContactData.swift",
-      "kind": "StringLiteral",
-      "offset": 1045,
-      "length": 11,
-      "value": "\"contactId\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/ContactData.swift",
-      "kind": "Array",
-      "offset": 1172,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/ContactData.swift",
-      "kind": "StringLiteral",
-      "offset": 1720,
-      "length": 5,
-      "value": "\"cmd\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/ContactData.swift",
-      "kind": "StringLiteral",
-      "offset": 1726,
-      "length": 16,
-      "value": "\"RepoLifePolicy\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/ContactData.swift",
-      "kind": "StringLiteral",
-      "offset": 1756,
-      "length": 6,
-      "value": "\"data\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/ContactData.swift",
-      "kind": "StringLiteral",
-      "offset": 1766,
-      "length": 11,
-      "value": "\"operation\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/ContactData.swift",
-      "kind": "StringLiteral",
-      "offset": 1778,
-      "length": 5,
-      "value": "\"GET\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/ContactData.swift",
-      "kind": "StringLiteral",
-      "offset": 1784,
-      "length": 12,
-      "value": "\"noTracking\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/ContactData.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1797,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/ContactData.swift",
-      "kind": "StringLiteral",
-      "offset": 1803,
-      "length": 8,
-      "value": "\"filter\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/ContactData.swift",
-      "kind": "StringLiteral",
-      "offset": 1813,
-      "length": 23,
-      "value": "\"holderId=\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/ContactData.swift",
-      "kind": "StringLiteral",
-      "offset": 1835,
-      "length": 3,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/ContactData.swift",
-      "kind": "Array",
-      "offset": 1940,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/ContactData.swift",
-      "kind": "StringLiteral",
-      "offset": 2480,
-      "length": 5,
-      "value": "\"cmd\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/ContactData.swift",
-      "kind": "StringLiteral",
-      "offset": 2487,
-      "length": 11,
-      "value": "\"RepoIssue\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/ContactData.swift",
-      "kind": "StringLiteral",
-      "offset": 2512,
-      "length": 6,
-      "value": "\"data\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/ContactData.swift",
-      "kind": "StringLiteral",
-      "offset": 2540,
-      "length": 8,
-      "value": "\"filter\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/ContactData.swift",
-      "kind": "StringLiteral",
-      "offset": 2550,
-      "length": 24,
-      "value": "\"contactId=\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/ContactData.swift",
-      "kind": "StringLiteral",
-      "offset": 2573,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/ContactData.swift",
-      "kind": "Array",
-      "offset": 2678,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/DTO\/Issues\/IssueRequest.swift",
+      "filePath": "\/Users\/noelobando\/Docs\/Sis11 App\/IOS\/sis11sdk\/Sis11Framework\/DTO\/Issues\/IssueRequest.swift",
       "kind": "StringLiteral",
       "offset": 168,
       "length": 11,
       "value": "\"RepoIssue\""
     },
     {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/DTO\/Issues\/IssueRequest.swift",
+      "filePath": "\/Users\/noelobando\/Docs\/Sis11 App\/IOS\/sis11sdk\/Sis11Framework\/Lib\/Repository.swift",
       "kind": "StringLiteral",
-      "offset": 267,
-      "length": 11,
-      "value": "\"RepoIssue\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/Repository.swift",
-      "kind": "StringLiteral",
-      "offset": 305,
-      "length": 5,
-      "value": "\"cmd\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/Repository.swift",
-      "kind": "StringLiteral",
-      "offset": 342,
-      "length": 6,
-      "value": "\"data\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/Repository.swift",
-      "kind": "StringLiteral",
-      "offset": 368,
-      "length": 11,
-      "value": "\"operation\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/Repository.swift",
-      "kind": "StringLiteral",
-      "offset": 380,
-      "length": 5,
-      "value": "\"GET\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/Repository.swift",
-      "kind": "StringLiteral",
-      "offset": 403,
-      "length": 6,
-      "value": "\"page\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/Repository.swift",
-      "kind": "StringLiteral",
-      "offset": 433,
-      "length": 6,
-      "value": "\"size\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/Repository.swift",
-      "kind": "StringLiteral",
-      "offset": 463,
-      "length": 8,
-      "value": "\"filter\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/Repository.swift",
-      "kind": "StringLiteral",
-      "offset": 490,
-      "length": 5,
-      "value": "\"1=1\""
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/Repository.swift",
-      "kind": "Array",
-      "offset": 817,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/Repository.swift",
-      "kind": "Array",
-      "offset": 1458,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/Repository.swift",
-      "kind": "Array",
-      "offset": 2095,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/Repository.swift",
-      "kind": "Array",
-      "offset": 2736,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/Repository.swift",
-      "kind": "Array",
-      "offset": 3392,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/Repository.swift",
-      "kind": "Array",
-      "offset": 4049,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/Repository.swift",
-      "kind": "Array",
-      "offset": 4707,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/Repository.swift",
-      "kind": "StringLiteral",
-      "offset": 5147,
+      "offset": 6604,
       "length": 20,
       "value": "\"RepoCountryCatalog\""
     },
     {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/Repository.swift",
+      "filePath": "\/Users\/noelobando\/Docs\/Sis11 App\/IOS\/sis11sdk\/Sis11Framework\/Lib\/Repository.swift",
       "kind": "StringLiteral",
-      "offset": 5188,
+      "offset": 6645,
       "length": 18,
       "value": "\"RepoStateCatalog\""
     },
     {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/Repository.swift",
+      "filePath": "\/Users\/noelobando\/Docs\/Sis11 App\/IOS\/sis11sdk\/Sis11Framework\/Lib\/Repository.swift",
       "kind": "StringLiteral",
-      "offset": 5227,
+      "offset": 6684,
       "length": 17,
       "value": "\"RepoCityCatalog\""
     },
     {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/Repository.swift",
+      "filePath": "\/Users\/noelobando\/Docs\/Sis11 App\/IOS\/sis11sdk\/Sis11Framework\/Lib\/Repository.swift",
       "kind": "StringLiteral",
-      "offset": 5266,
+      "offset": 6723,
       "length": 14,
       "value": "\"RepoCurrency\""
     },
     {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/Repository.swift",
+      "filePath": "\/Users\/noelobando\/Docs\/Sis11 App\/IOS\/sis11sdk\/Sis11Framework\/Lib\/Repository.swift",
       "kind": "StringLiteral",
-      "offset": 5306,
+      "offset": 6763,
       "length": 25,
       "value": "\"RepoInsuredEventCatalog\""
     },
     {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/Repository.swift",
+      "filePath": "\/Users\/noelobando\/Docs\/Sis11 App\/IOS\/sis11sdk\/Sis11Framework\/Lib\/Repository.swift",
       "kind": "StringLiteral",
-      "offset": 5356,
+      "offset": 6813,
       "length": 24,
       "value": "\"RepoEventReasonCatalog\""
     },
     {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/Repository.swift",
+      "filePath": "\/Users\/noelobando\/Docs\/Sis11 App\/IOS\/sis11sdk\/Sis11Framework\/Lib\/Repository.swift",
       "kind": "StringLiteral",
-      "offset": 5406,
+      "offset": 6863,
       "length": 25,
       "value": "\"RepoRelationshipCatalog\""
     },
     {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/Repository.swift",
+      "filePath": "\/Users\/noelobando\/Docs\/Sis11 App\/IOS\/sis11sdk\/Sis11Framework\/Lib\/Repository.swift",
       "kind": "StringLiteral",
-      "offset": 5147,
+      "offset": 6604,
       "length": 20,
       "value": "\"RepoCountryCatalog\""
     },
     {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/Repository.swift",
+      "filePath": "\/Users\/noelobando\/Docs\/Sis11 App\/IOS\/sis11sdk\/Sis11Framework\/Lib\/Repository.swift",
       "kind": "StringLiteral",
-      "offset": 5188,
+      "offset": 6645,
       "length": 18,
       "value": "\"RepoStateCatalog\""
     },
     {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/Repository.swift",
+      "filePath": "\/Users\/noelobando\/Docs\/Sis11 App\/IOS\/sis11sdk\/Sis11Framework\/Lib\/Repository.swift",
       "kind": "StringLiteral",
-      "offset": 5227,
+      "offset": 6684,
       "length": 17,
       "value": "\"RepoCityCatalog\""
     },
     {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/Repository.swift",
+      "filePath": "\/Users\/noelobando\/Docs\/Sis11 App\/IOS\/sis11sdk\/Sis11Framework\/Lib\/Repository.swift",
       "kind": "StringLiteral",
-      "offset": 5266,
+      "offset": 6723,
       "length": 14,
       "value": "\"RepoCurrency\""
     },
     {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/Repository.swift",
+      "filePath": "\/Users\/noelobando\/Docs\/Sis11 App\/IOS\/sis11sdk\/Sis11Framework\/Lib\/Repository.swift",
       "kind": "StringLiteral",
-      "offset": 5306,
+      "offset": 6763,
       "length": 25,
       "value": "\"RepoInsuredEventCatalog\""
     },
     {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/Repository.swift",
+      "filePath": "\/Users\/noelobando\/Docs\/Sis11 App\/IOS\/sis11sdk\/Sis11Framework\/Lib\/Repository.swift",
       "kind": "StringLiteral",
-      "offset": 5356,
+      "offset": 6813,
       "length": 24,
       "value": "\"RepoEventReasonCatalog\""
     },
     {
-      "filePath": "\/Users\/noelobando\/Docs\/Sis11Framework\/Sis11Framework\/Lib\/Repository.swift",
+      "filePath": "\/Users\/noelobando\/Docs\/Sis11 App\/IOS\/sis11sdk\/Sis11Framework\/Lib\/Repository.swift",
       "kind": "StringLiteral",
-      "offset": 5406,
+      "offset": 6863,
       "length": 25,
       "value": "\"RepoRelationshipCatalog\""
     }
