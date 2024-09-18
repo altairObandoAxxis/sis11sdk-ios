@@ -30,7 +30,7 @@ Then add the framework as a dependency to your target:
 Usage
 To use the framework, import it into your project and access its functionalities. Here's an example:
 ```
-import sis11sdk
+import Sis11Framework
 
 class ViewController: UIViewController {
     override func viewDidLoad() {
@@ -39,7 +39,7 @@ class ViewController: UIViewController {
         // Access the shared instance of the singleton
         let sdk = sis11sdk.shared
 
-        // Use the framework's functionalities
+        // Use the frameworks functionalities
         sdk.doAuth(credentials: Credentials(email: "your email", clave: "your password"))
     }
 }
