@@ -6,7 +6,12 @@
 //
 
 import Foundation
-
+/**
+ Contact Relationship DTO
+ - Authors:
+     Noel Obando
+ - Copyright: Axxis-Systems
+ */
 public struct Relationship: Codable {
     public var id: Int;
     public var name: String?;

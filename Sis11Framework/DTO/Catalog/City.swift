@@ -6,7 +6,12 @@
 //
 
 import Foundation
-
+/**
+ City DTO
+ - Authors:
+     Noel Obando
+ - Copyright: Axxis-Systems
+ */
 public struct City: Codable {
     public var id: Int
     public var code: String?;

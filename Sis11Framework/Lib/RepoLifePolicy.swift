@@ -6,13 +6,36 @@
 //
 
 import Foundation
+/** 
+ Policy Repository
+ - Authors:
+     Noel Obando
+ - Copyright: Axxis-Systems
+ */
 public class RepoLifePolicy {
+    /**
+     Get Policy data using id
+     - Parameters:
+       - id: Life Policy Id
+     */
     public func GetPolicyById(id: Int) async throws -> [LifePolicy] {
         return try! await self.GetPoliciesByFilter(filter: "id=\(id)");
     }
+    /**
+     Get Policy data using holder contact id
+     - Parameters:
+     - holderId: Holder contact Id
+     */
     public func GetPoliciesByHolderId( holderId: Int ) async throws -> [LifePolicy] {
         return try! await self.GetPoliciesByFilter(filter: "holderId=\(holderId)");
-    }    
+    }
+    /**
+     Get Policy data using a SQLServer syntax
+     - Parameters:
+        - filter: SQL Server syntax filter
+     - Returns:
+        - [LifePolicy] Array if the query is ok
+     */
     public func GetPoliciesByFilter( filter: String ) async throws -> [LifePolicy]{
         let payload: [String : Any ] = [
             "cmd": "RepoLifePolicy",
@@ -31,6 +54,7 @@ public class RepoLifePolicy {
                 return response.outData;
             }
             throw APIError.requestFailed(response.msg);
+            
         }
     }
     /**
@@ -64,6 +88,11 @@ public class RepoLifePolicy {
             throw APIError.requestFailed(response.msg);
         }
     }
+    /**
+     Obtains the payment schedule for a specific policy.
+     - Parameters:
+     - lifePolicyId: Life Policy Id
+     */
     public func GetPayPlan( lifePolicyId: Int) async throws -> [PayPlan]{
         let payload: [String: Any ] = [
             "cmd":"RepoPayPlan",

@@ -6,8 +6,14 @@
 //
 
 import Foundation
+/** 
+ Portal Product operations.
+ - Authors:
+     Noel Obando
+ - Copyright: Axxis-Systems
+ */
 public class Portal{
-    public init(){}
+    /// Gets all products configured as external or self-service.
     public func GetPortalProducts() async throws -> [Product] {
         let payload : [ String: String ] = ["cmd":"GetPortalProducts"];
         guard let jsonData = try? JSONSerialization.data(withJSONObject: payload, options: []) else { throw APIError.encodingError }
@@ -20,6 +26,11 @@ public class Portal{
             return response.outData;
         }
     }
+    /**
+     allows to obtain the selfservice configuration on the product portal
+     - Parameters:
+        - product: SelfService Product
+     */
     public func ParseProductConfig( product: Product ) throws -> SelfServiceConfiguration {
         do{
             let cnf: SelfServiceConfiguration = try JSONDecoder().decode(SelfServiceConfiguration.self,from: product.configJson.data(using: .utf8)!);
@@ -28,5 +39,4 @@ public class Portal{
             throw APIError.decodingError(error.localizedDescription as! Error);
         }
     }
-
 }

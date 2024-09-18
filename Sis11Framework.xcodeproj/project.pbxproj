@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		110769382C9A4F3D004DF86C /* doCmd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110769372C9A4F3D004DF86C /* doCmd.swift */; };
 		113F3F022C7FCB7F004F1B97 /* Sis11Framework.docc in Sources */ = {isa = PBXBuildFile; fileRef = 113F3F012C7FCB7F004F1B97 /* Sis11Framework.docc */; };
 		113F3F082C7FCB7F004F1B97 /* Sis11Framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 113F3EFD2C7FCB7F004F1B97 /* Sis11Framework.framework */; };
 		113F3F0D2C7FCB7F004F1B97 /* Sis11FrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F3F0C2C7FCB7F004F1B97 /* Sis11FrameworkTests.swift */; };
@@ -21,7 +22,6 @@
 		113F3F522C7FCBAC004F1B97 /* PortalProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F3F212C7FCBAC004F1B97 /* PortalProduct.swift */; };
 		113F3F532C7FCBAC004F1B97 /* PortalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F3F222C7FCBAC004F1B97 /* PortalData.swift */; };
 		113F3F542C7FCBAC004F1B97 /* SelfService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F3F232C7FCBAC004F1B97 /* SelfService.swift */; };
-		113F3F552C7FCBAC004F1B97 /* doCmd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F3F252C7FCBAC004F1B97 /* doCmd.swift */; };
 		113F3F562C7FCBAC004F1B97 /* RepoLifePolicyDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F3F272C7FCBAC004F1B97 /* RepoLifePolicyDTO.swift */; };
 		113F3F572C7FCBAC004F1B97 /* InsuredObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F3F282C7FCBAC004F1B97 /* InsuredObject.swift */; };
 		113F3F582C7FCBAC004F1B97 /* Premium.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113F3F292C7FCBAC004F1B97 /* Premium.swift */; };
@@ -65,6 +65,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		110769372C9A4F3D004DF86C /* doCmd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = doCmd.swift; sourceTree = "<group>"; };
 		113F3EFD2C7FCB7F004F1B97 /* Sis11Framework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Sis11Framework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		113F3F002C7FCB7F004F1B97 /* Sis11Framework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sis11Framework.h; sourceTree = "<group>"; };
 		113F3F012C7FCB7F004F1B97 /* Sis11Framework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Sis11Framework.docc; sourceTree = "<group>"; };
@@ -80,7 +81,6 @@
 		113F3F212C7FCBAC004F1B97 /* PortalProduct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortalProduct.swift; sourceTree = "<group>"; };
 		113F3F222C7FCBAC004F1B97 /* PortalData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortalData.swift; sourceTree = "<group>"; };
 		113F3F232C7FCBAC004F1B97 /* SelfService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelfService.swift; sourceTree = "<group>"; };
-		113F3F252C7FCBAC004F1B97 /* doCmd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = doCmd.swift; sourceTree = "<group>"; };
 		113F3F272C7FCBAC004F1B97 /* RepoLifePolicyDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepoLifePolicyDTO.swift; sourceTree = "<group>"; };
 		113F3F282C7FCBAC004F1B97 /* InsuredObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsuredObject.swift; sourceTree = "<group>"; };
 		113F3F292C7FCBAC004F1B97 /* Premium.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Premium.swift; sourceTree = "<group>"; };
@@ -212,7 +212,7 @@
 		113F3F242C7FCBAC004F1B97 /* Util */ = {
 			isa = PBXGroup;
 			children = (
-				113F3F252C7FCBAC004F1B97 /* doCmd.swift */,
+				110769372C9A4F3D004DF86C /* doCmd.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -412,8 +412,8 @@
 				113F3F652C7FCBAC004F1B97 /* UserData.swift in Sources */,
 				113F3F022C7FCB7F004F1B97 /* Sis11Framework.docc in Sources */,
 				113F3F712C7FCBAC004F1B97 /* EventReason.swift in Sources */,
+				110769382C9A4F3D004DF86C /* doCmd.swift in Sources */,
 				113F3F6D2C7FCBAC004F1B97 /* ReturnedUserOutData.swift in Sources */,
-				113F3F552C7FCBAC004F1B97 /* doCmd.swift in Sources */,
 				113F3F612C7FCBAC004F1B97 /* Country.swift in Sources */,
 				113F3F6B2C7FCBAC004F1B97 /* IssueReason.swift in Sources */,
 				113F3F4E2C7FCBAC004F1B97 /* Portal.swift in Sources */,

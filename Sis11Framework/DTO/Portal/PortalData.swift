@@ -6,6 +6,12 @@
 //
 
 import Foundation
+/**
+ Portal Data DTO
+ - Authors:
+     Noel Obando
+ - Copyright: Axxis-Systems
+ */
 public struct PortalData:Codable {
     public let ok:Bool
     public let msg:String

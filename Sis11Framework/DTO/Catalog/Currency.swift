@@ -6,7 +6,12 @@
 //
 
 import Foundation
-
+/**
+ Currency DTO
+ - Authors:
+     Noel Obando
+ - Copyright: Axxis-Systems
+ */
 public struct Currency: Codable{
     public var code : String
     public var enabled: Bool

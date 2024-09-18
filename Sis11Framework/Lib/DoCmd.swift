@@ -6,8 +6,22 @@
 //
 
 import Foundation
+/**
+ DoCmd Action
+ - Authors:
+     Noel Obando
+ - Copyright: Axxis-Systems
+ */
 public class DoCmd<T: Codable> {
-    public init() { }
+    /**
+     Executes a system command chain.
+     - Parameters:
+        - chain: Command chain name
+        - context: Command chain data context JSON string
+     - Authors:
+         Noel Obando
+     - Copyright: Axxis-Systems
+     */
     public func ExeChain(chain:String, context: String ) async throws -> DoCmdDto<T> {
         let payload: [String : Any ] = [
             "cmd": "ExeChain",
@@ -26,6 +40,15 @@ public class DoCmd<T: Codable> {
             throw APIError.requestFailed(response.msg);
         }
     }
+    /**
+     Executes a native system command.
+     - Parameters:
+       - cmd: Command name
+       - data: Command arguments.
+     - Authors:
+         Noel Obando
+     - Copyright: Axxis-Systems
+     */
     public func DoCmd( cmd: String, data: [String: String]) async throws -> DoCmdDto<T> {
         let payload: [String : Any ] = [
             "cmd": cmd,

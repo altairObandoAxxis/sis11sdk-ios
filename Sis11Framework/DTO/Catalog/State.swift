@@ -6,7 +6,12 @@
 //
 
 import Foundation
-
+/**
+ State DTO
+ - Authors:
+     Noel Obando
+ - Copyright: Axxis-Systems
+ */
 public struct StateCatalog: Codable {
     public var id: Int
     public var code: String;
